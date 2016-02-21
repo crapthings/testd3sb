@@ -1,0 +1,15 @@
+{
+  "name": "testd3sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "d3.v3.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.5.0"
+  }
+}

@@ -1,0 +1,162 @@
+{
+    "name": "文娟数码",
+    "description": "蚂蚁数码专营店",
+    "size": 22,
+    "children": [
+        {
+            "name": "金品数码",
+            "description": "大有元亨数码专营店",
+            "size": 25,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "金品数码",
+            "size": 27,
+            "children": []
+        },
+        {
+            "name": "大有元亨数码专营店",
+            "description": "实在山东人数码",
+            "size": 30,
+            "children": [
+                {
+                    "name": "大有元亨数码专营店",
+                    "description": "文娟数码",
+                    "size": 27,
+                    "children": [
+                        {
+                            "name": "金品数码",
+                            "description": "金品数码",
+                            "size": 24,
+                            "children": [
+                                {
+                                    "name": "文娟数码",
+                                    "description": "文娟数码",
+                                    "size": 26,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "大有元亨数码专营店",
+            "size": 25,
+            "children": [
+                {
+                    "name": "文娟数码",
+                    "description": "实在山东人数码",
+                    "size": 24,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "文娟数码",
+            "description": "文娟数码",
+            "size": 25,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "大有元亨数码专营店",
+            "size": 23,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "实在山东人数码",
+            "size": 21,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "金品数码",
+            "size": 24,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "金品数码",
+            "size": 26,
+            "children": [
+                {
+                    "name": "实在山东人数码",
+                    "description": "实在山东人数码",
+                    "size": 21,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "文娟数码",
+            "size": 22,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "金品数码",
+            "size": 29,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "文娟数码",
+            "size": 22,
+            "children": []
+        },
+        {
+            "name": "大有元亨数码专营店",
+            "description": "金品数码",
+            "size": 26,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "实在山东人数码",
+            "size": 27,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "金品数码",
+            "size": 25,
+            "children": []
+        },
+        {
+            "name": "蚂蚁数码专营店",
+            "description": "金品数码",
+            "size": 23,
+            "children": []
+        },
+        {
+            "name": "文娟数码",
+            "description": "蚂蚁数码专营店",
+            "size": 24,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "实在山东人数码",
+            "size": 29,
+            "children": []
+        },
+        {
+            "name": "实在山东人数码",
+            "description": "金品数码",
+            "size": 23,
+            "children": []
+        },
+        {
+            "name": "文娟数码",
+            "description": "金品数码",
+            "size": 24,
+            "children": []
+        }
+    ]
+}
