@@ -5,7 +5,7 @@ function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
 var hue = d3.scale.category10();
 
-var color = d3.scale.category20c();
+var color = d3.scale.category20();
 
 var luminance = d3.scale.sqrt()
 	.domain([0, 1e6])
@@ -185,7 +185,7 @@ d3.json("./data.json", function(error, root) {
 	// Entering outside arcs start from the old layout.
 	if (root === p) enterArc = outsideArc, exitArc = insideArc, outsideAngle.range([p.x, p.x + p.dx]);
 	
-	 var new_data=partition.nodes(root).slice(1)
+	var new_data=partition.nodes(root).slice(1)
 
 	path = path.data(new_data, function(d) { return d.key; });
 		 
@@ -215,14 +215,16 @@ d3.json("./data.json", function(error, root) {
 		
 		path.transition()
 			.style("fill-opacity", 1)
+			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
 			.attrTween("d", function(d) { return arcTween.call(this, updateArc(d)); });
 			
 	});
 	
-	 texts = texts.data(new_data, function(d) { return d.key; })
+	texts = texts.data(new_data, function(d) { return d.key; })
 	 
-	 texts.exit()
+	texts.exit()
 			 .remove()    
+	
 	texts.enter()
 			.append("text")
 		
