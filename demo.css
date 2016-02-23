@@ -21,7 +21,7 @@ path {
 }
 
 circle {
-	fill: none;
+	/*fill: none;*/
 	pointer-events: all;
 }
 

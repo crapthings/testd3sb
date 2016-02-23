@@ -68,7 +68,7 @@ function mouseOutArc(){
 function mouseMoveArc (d) {
 	return tooltip
 	.style("top", (d3.event.pageY-10)+"px")
-	.style("left", (d3.event.pageX+10)+"px");
+	.style("left", (d3.event.pageX+50)+"px");
 }
 
 var root_ = null;
@@ -94,13 +94,21 @@ d3.json("./data.json", function(error, root) {
 		.value(function(d) { return d.sum; });
 
 	var center = svg.append("circle")
+		.attr('fill', 'skyblue')
 		.attr("r", radius / 3)
 		.on("click", zoomOut);
 
-	center.append("title")
+	center
+		.append("title")
 		.text("zoom out");
+
+	var currentPoint = svg.append('text')
+		.style('text-anchor', 'middle')
+		.style('fill', 'green')
+		.text(root.name)
 		
 	var partitioned_data=partition.nodes(root).slice(1)
+	console.log(partitioned_data)
 
 	var path = svg.selectAll("path")
 		.data(partitioned_data)
@@ -129,11 +137,13 @@ d3.json("./data.json", function(error, root) {
 	if (p.depth > 1) p = p.parent;
 	if (!p.children) return;
 	zoom(p, p);
+	currentPoint.text(p.name)
 	}
 
 	function zoomOut(p) {
 	if (!p || !p.parent) return;
 	zoom(p.parent, p);
+	currentPoint.text(p.parent.name)
 	}
 
 	// Zoom to the specified new root.
