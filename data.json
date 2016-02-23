@@ -1,162 +1,571 @@
 {
-    "name": "文娟数码",
-    "description": "蚂蚁数码专营店",
-    "size": 22,
+    "name": "沃尔沃",
+    "description": "公用事业联合公司",
+    "size": 21,
     "children": [
         {
-            "name": "金品数码",
-            "description": "大有元亨数码专营店",
-            "size": 25,
-            "children": []
-        },
-        {
-            "name": "蚂蚁数码专营店",
-            "description": "金品数码",
-            "size": 27,
-            "children": []
-        },
-        {
-            "name": "大有元亨数码专营店",
-            "description": "实在山东人数码",
-            "size": 30,
+            "name": "国民西敏寺银行",
+            "description": "斯堪地亚集团",
+            "size": 23,
             "children": [
                 {
-                    "name": "大有元亨数码专营店",
-                    "description": "文娟数码",
-                    "size": 27,
+                    "name": "印度斯坦利华公司",
+                    "description": "中电控股有限公司",
+                    "size": 21,
                     "children": [
                         {
-                            "name": "金品数码",
-                            "description": "金品数码",
-                            "size": 24,
-                            "children": [
-                                {
-                                    "name": "文娟数码",
-                                    "description": "文娟数码",
-                                    "size": 26,
-                                    "children": []
-                                }
-                            ]
+                            "name": "乔治威斯顿",
+                            "description": "英国航空管理",
+                            "size": 25
+                        },
+                        {
+                            "name": "梅赛德斯-奔驰",
+                            "description": "德意志银行",
+                            "size": 28
+                        },
+                        {
+                            "name": "台湾茂矽电子",
+                            "description": "美集物流运输",
+                            "size": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "毕博管理咨询",
+                    "description": "永隆银行",
+                    "size": 25,
+                    "children": [
+                        {
+                            "name": "细胞基因系统公司",
+                            "description": "美利坚公司",
+                            "size": 22
+                        },
+                        {
+                            "name": "国民西敏寺银行",
+                            "description": "西夫韦",
+                            "size": 30
+                        },
+                        {
+                            "name": "美商休斯电子材料",
+                            "description": "国家半导体公司",
+                            "size": 24
+                        },
+                        {
+                            "name": "柏灵顿资源",
+                            "description": "道富公司",
+                            "size": 25
+                        },
+                        {
+                            "name": "派翠克股份公司",
+                            "description": "礼来大药厂",
+                            "size": 26
+                        }
+                    ]
+                },
+                {
+                    "name": "新加坡交易所",
+                    "description": "美国通用配件公司",
+                    "size": 24,
+                    "children": [
+                        {
+                            "name": "希腊银行",
+                            "description": "纽威尔集团",
+                            "size": 23
+                        },
+                        {
+                            "name": "出光兴产",
+                            "description": "华宇电脑",
+                            "size": 29
+                        },
+                        {
+                            "name": "日本任天堂株式会社",
+                            "description": "雅培",
+                            "size": 21
+                        },
+                        {
+                            "name": "爱德万株式会社",
+                            "description": "澳洲地产集团",
+                            "size": 29
+                        }
+                    ]
+                },
+                {
+                    "name": "瑞来斯实业",
+                    "description": "藤泽药品工业公司",
+                    "size": 26,
+                    "children": [
+                        {
+                            "name": "马林克罗制药公司",
+                            "description": "国浩集团",
+                            "size": 28
+                        },
+                        {
+                            "name": "出光兴产",
+                            "description": "日本通运",
+                            "size": 29
+                        },
+                        {
+                            "name": "巴克莱银行",
+                            "description": "住友信托银行",
+                            "size": 30
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "蚂蚁数码专营店",
-            "description": "大有元亨数码专营店",
-            "size": 25,
-            "children": [
-                {
-                    "name": "文娟数码",
-                    "description": "实在山东人数码",
-                    "size": 24,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "文娟数码",
-            "description": "文娟数码",
-            "size": 25,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "大有元亨数码专营店",
-            "size": 23,
-            "children": []
-        },
-        {
-            "name": "蚂蚁数码专营店",
-            "description": "实在山东人数码",
-            "size": 21,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "金品数码",
-            "size": 24,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "金品数码",
-            "size": 26,
-            "children": [
-                {
-                    "name": "实在山东人数码",
-                    "description": "实在山东人数码",
-                    "size": 21,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "蚂蚁数码专营店",
-            "description": "文娟数码",
-            "size": 22,
-            "children": []
-        },
-        {
-            "name": "蚂蚁数码专营店",
-            "description": "金品数码",
+            "name": "株式会社小糸制作所",
+            "description": "杜邦",
             "size": 29,
-            "children": []
+            "children": [
+                {
+                    "name": "通用电气消费与工业产品集团",
+                    "description": "鲜京",
+                    "size": 23,
+                    "children": [
+                        {
+                            "name": "美国航空集团",
+                            "description": "路透集团(品牌:路透社)",
+                            "size": 24
+                        },
+                        {
+                            "name": "日本通运",
+                            "description": "富贵草能源",
+                            "size": 21
+                        },
+                        {
+                            "name": "台湾积体电路制造股份有限公司",
+                            "description": "澳洲博彩集团",
+                            "size": 28
+                        }
+                    ]
+                },
+                {
+                    "name": "马自达汽车",
+                    "description": "苏格兰电力",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "弗雷德马克",
+                            "description": "菲利普·莫里斯公司(品牌:万宝路)",
+                            "size": 28
+                        },
+                        {
+                            "name": "国民银行",
+                            "description": "山之内制药株式会社",
+                            "size": 29
+                        },
+                        {
+                            "name": "索威公司",
+                            "description": "现代重工",
+                            "size": 23
+                        },
+                        {
+                            "name": "达科亚洲",
+                            "description": "环隆电气",
+                            "size": 27
+                        }
+                    ]
+                },
+                {
+                    "name": "裕隆汽车制造",
+                    "description": "三星堂",
+                    "size": 30,
+                    "children": [
+                        {
+                            "name": "日信工业株式会社",
+                            "description": "电通广告",
+                            "size": 21
+                        },
+                        {
+                            "name": "村田制作所",
+                            "description": "阿普雷拉公司",
+                            "size": 24
+                        },
+                        {
+                            "name": "麦当劳",
+                            "description": "派翠克股份公司",
+                            "size": 27
+                        },
+                        {
+                            "name": "戴文能源",
+                            "description": "美国钢铁公司",
+                            "size": 28
+                        },
+                        {
+                            "name": "自动车鋳物株式会社",
+                            "description": "陶氏化学",
+                            "size": 20
+                        },
+                        {
+                            "name": "意大利圣保罗银行",
+                            "description": "帝国烟草公司",
+                            "size": 21
+                        },
+                        {
+                            "name": "先进微电子器件公司",
+                            "description": "马林克罗制药公司",
+                            "size": 27
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "蚂蚁数码专营店",
-            "description": "文娟数码",
-            "size": 22,
-            "children": []
+            "name": "三星堂",
+            "description": "起亚汽车",
+            "size": 28,
+            "children": [
+                {
+                    "name": "组合国际计算机",
+                    "description": "静冈银行",
+                    "size": 30,
+                    "children": [
+                        {
+                            "name": "露华浓",
+                            "description": "恒基兆业地产",
+                            "size": 27
+                        },
+                        {
+                            "name": "吉列德科技",
+                            "description": "中国信托金融控股股份有限公司",
+                            "size": 30
+                        },
+                        {
+                            "name": "奥克美思公司",
+                            "description": "富塔巴工业株式会社",
+                            "size": 24
+                        },
+                        {
+                            "name": "斯必克",
+                            "description": "诺格舰船系统",
+                            "size": 20
+                        },
+                        {
+                            "name": "利宝相互保险",
+                            "description": "柯里药品集团",
+                            "size": 27
+                        },
+                        {
+                            "name": "大荣",
+                            "description": "西班牙大众银行",
+                            "size": 29
+                        },
+                        {
+                            "name": "大和银行",
+                            "description": "日本NOK株式会社",
+                            "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "肯德基",
+                    "description": "新加坡报业控股",
+                    "size": 25,
+                    "children": [
+                        {
+                            "name": "台达化学工业",
+                            "description": "普莱克斯公司",
+                            "size": 23
+                        },
+                        {
+                            "name": "丰田车体株式会社",
+                            "description": "雅高集团",
+                            "size": 28
+                        },
+                        {
+                            "name": "国际商业机器公司",
+                            "description": "弗雷特伍德",
+                            "size": 25
+                        },
+                        {
+                            "name": "哈利伯顿",
+                            "description": "沃尔沃",
+                            "size": 24
+                        },
+                        {
+                            "name": "意大利电力",
+                            "description": "澳洲联合工业公司",
+                            "size": 30
+                        }
+                    ]
+                },
+                {
+                    "name": "普洛斯",
+                    "description": "南方",
+                    "size": 27,
+                    "children": [
+                        {
+                            "name": "苏格兰皇家银行",
+                            "description": "乐金化学",
+                            "size": 29
+                        },
+                        {
+                            "name": "北美三菱汽车",
+                            "description": "日产柴油汽车工业公司",
+                            "size": 27
+                        },
+                        {
+                            "name": "伟易达",
+                            "description": "上海汽车",
+                            "size": 27
+                        },
+                        {
+                            "name": "波音",
+                            "description": "五月百货",
+                            "size": 30
+                        },
+                        {
+                            "name": "嘉里建设",
+                            "description": "信诺",
+                            "size": 22
+                        },
+                        {
+                            "name": "朝日生命",
+                            "description": "普莱克斯公司",
+                            "size": 24
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "大有元亨数码专营店",
-            "description": "金品数码",
-            "size": 26,
-            "children": []
+            "name": "农场食品",
+            "description": "芬欧汇川",
+            "size": 28,
+            "children": [
+                {
+                    "name": "花莎尼",
+                    "description": "纬创资通",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "英国石油",
+                            "description": "西田信托",
+                            "size": 24
+                        },
+                        {
+                            "name": "尼康",
+                            "description": "新加坡航空",
+                            "size": 26
+                        },
+                        {
+                            "name": "佩特龙公司",
+                            "description": "埃克西尔能源",
+                            "size": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "美国通用配件公司",
+                    "description": "汤姆逊",
+                    "size": 23,
+                    "children": [
+                        {
+                            "name": "罗克韦尔",
+                            "description": "诺斯洛普格拉曼",
+                            "size": 30
+                        },
+                        {
+                            "name": "欧翁",
+                            "description": "澳洲联合工业公司",
+                            "size": 30
+                        },
+                        {
+                            "name": "三星重工",
+                            "description": "国泰人寿",
+                            "size": 27
+                        },
+                        {
+                            "name": "加莱赫集团",
+                            "description": "东部制钢株式会社",
+                            "size": 30
+                        }
+                    ]
+                },
+                {
+                    "name": "阿普雷拉公司",
+                    "description": "瓦莱罗能源",
+                    "size": 28,
+                    "children": [
+                        {
+                            "name": "台湾茂矽电子",
+                            "description": "中华电信",
+                            "size": 25
+                        },
+                        {
+                            "name": "韩国电力",
+                            "description": "大和房建",
+                            "size": 20
+                        },
+                        {
+                            "name": "北德意志银行NorddeutscheLandesb.",
+                            "description": "三井信托",
+                            "size": 30
+                        },
+                        {
+                            "name": "圣乔治银行",
+                            "description": "海外航运公司",
+                            "size": 25
+                        },
+                        {
+                            "name": "敦豪全球速递公司",
+                            "description": "甲骨文",
+                            "size": 25
+                        },
+                        {
+                            "name": "奥克美思公司",
+                            "description": "明治安田生命",
+                            "size": 22
+                        },
+                        {
+                            "name": "诺威治联合",
+                            "description": "大东电报局",
+                            "size": 21
+                        },
+                        {
+                            "name": "亚洲大西洋啤酒厂有限公司",
+                            "description": "中华电信",
+                            "size": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "凯迪迪爱",
+                    "description": "乐金化学",
+                    "size": 25,
+                    "children": [
+                        {
+                            "name": "万宝盛华",
+                            "description": "波士顿咨询公司",
+                            "size": 22
+                        },
+                        {
+                            "name": "中国石油天然气",
+                            "description": "可口可乐企业",
+                            "size": 26
+                        },
+                        {
+                            "name": "拜维尔公司",
+                            "description": "三菱商事",
+                            "size": 23
+                        },
+                        {
+                            "name": "露华浓",
+                            "description": "雅芳产品",
+                            "size": 22
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "蚂蚁数码专营店",
-            "description": "实在山东人数码",
+            "name": "德国商业银行",
+            "description": "三井住友保险",
             "size": 27,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "金品数码",
-            "size": 25,
-            "children": []
-        },
-        {
-            "name": "蚂蚁数码专营店",
-            "description": "金品数码",
-            "size": 23,
-            "children": []
-        },
-        {
-            "name": "文娟数码",
-            "description": "蚂蚁数码专营店",
-            "size": 24,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "实在山东人数码",
-            "size": 29,
-            "children": []
-        },
-        {
-            "name": "实在山东人数码",
-            "description": "金品数码",
-            "size": 23,
-            "children": []
-        },
-        {
-            "name": "文娟数码",
-            "description": "金品数码",
-            "size": 24,
-            "children": []
+            "children": [
+                {
+                    "name": "国际游戏科技公司",
+                    "description": "阿西布朗勃法瑞",
+                    "size": 25,
+                    "children": [
+                        {
+                            "name": "精工爱普生",
+                            "description": "西班牙大众银行",
+                            "size": 20
+                        },
+                        {
+                            "name": "富贵草能源",
+                            "description": "罗技国际集团公司",
+                            "size": 28
+                        },
+                        {
+                            "name": "中国工商银行",
+                            "description": "施耐德公司",
+                            "size": 20
+                        },
+                        {
+                            "name": "印度斯坦利华公司",
+                            "description": "赛诺菲圣德拉堡",
+                            "size": 21
+                        },
+                        {
+                            "name": "中国人造纤维",
+                            "description": "伊士曼柯达(品牌:柯达)",
+                            "size": 27
+                        },
+                        {
+                            "name": "玛京多",
+                            "description": "直布罗陀保险",
+                            "size": 22
+                        },
+                        {
+                            "name": "高伦油化公司",
+                            "description": "新日本石油",
+                            "size": 30
+                        },
+                        {
+                            "name": "中国人寿",
+                            "description": "农业信贷银行",
+                            "size": 27
+                        }
+                    ]
+                },
+                {
+                    "name": "和记电讯",
+                    "description": "中国南方电网",
+                    "size": 24,
+                    "children": [
+                        {
+                            "name": "博思艾伦咨询公司",
+                            "description": "基尔比公司",
+                            "size": 26
+                        },
+                        {
+                            "name": "国家汽车经销有限公司",
+                            "description": "淡水河谷公司",
+                            "size": 22
+                        },
+                        {
+                            "name": "联邦电力委员会(墨西哥)",
+                            "description": "大荣",
+                            "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "关东自动车工业株式会社",
+                    "description": "塔吉特",
+                    "size": 28,
+                    "children": [
+                        {
+                            "name": "雅培",
+                            "description": "马来亚银行",
+                            "size": 22
+                        },
+                        {
+                            "name": "默克制药",
+                            "description": "国际体重监视公司",
+                            "size": 29
+                        },
+                        {
+                            "name": "联合商业银行",
+                            "description": "新加坡科技工程",
+                            "size": 30
+                        },
+                        {
+                            "name": "先灵",
+                            "description": "菲利普·莫里斯公司(品牌:万宝路)",
+                            "size": 20
+                        },
+                        {
+                            "name": "电子艺界",
+                            "description": "英国石油",
+                            "size": 21
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

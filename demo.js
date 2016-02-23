@@ -11,6 +11,7 @@ var luminance = d3.scale.sqrt()
 	.range([90, 20]);
 
 var svg = d3.select("body").append("svg")
+	.attr("id", "circle1")
 	.attr("width", margin.left + margin.right)
 	.attr("height", margin.top + margin.bottom)
 	.append("g")
@@ -51,13 +52,13 @@ function computeTextRotation(d) {
 }
 
 function mouseOverArc(d) {
-			 d3.select(this).attr("stroke","black")
-			 
-			tooltip.html(format_description(d));
-			return tooltip.transition()
-			.duration(50)
-			.style("opacity", 0.9);
-		}
+	 d3.select(this).attr("stroke","green")
+	 
+	tooltip.html(format_description(d));
+	return tooltip.transition()
+	.duration(50)
+	.style("opacity", 0.9);
+}
 
 function mouseOutArc(){
 	d3.select(this).attr("stroke","")
@@ -65,9 +66,9 @@ function mouseOutArc(){
 }
 
 function mouseMoveArc (d) {
-			return tooltip
-			.style("top", (d3.event.pageY-10)+"px")
-			.style("left", (d3.event.pageX+10)+"px");
+	return tooltip
+	.style("top", (d3.event.pageY-10)+"px")
+	.style("left", (d3.event.pageX+10)+"px");
 }
 
 var root_ = null;
@@ -122,6 +123,7 @@ d3.json("./data.json", function(error, root) {
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align	
 		.text(function(d,i) {return d.name})
+		.attr("pointer-events", "none")
 
 	function zoomIn(p) {
 	if (p.depth > 1) p = p.parent;
@@ -130,7 +132,7 @@ d3.json("./data.json", function(error, root) {
 	}
 
 	function zoomOut(p) {
-	if (!p.parent) return;
+	if (!p || !p.parent) return;
 	zoom(p.parent, p);
 	}
 
@@ -208,6 +210,7 @@ d3.json("./data.json", function(error, root) {
 		.filter(filter_min_arc_size_text)    	
 		.text(function(d,i) {return d.name})
 		.transition().delay(750).style("opacity", 1)
+		.attr("pointer-events", "none")
 		
 		 
 	}
