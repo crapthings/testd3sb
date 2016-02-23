@@ -110,7 +110,7 @@ d3.json("./data.json", function(error, root) {
 		.text(root.name)
 		.attr("pointer-events", "none")
 		
-	var partitioned_data=partition.nodes(root).slice(0)
+	var partitioned_data=partition.nodes(root).slice(1)
 
 	var path = svg.selectAll("path")
 		.data(partitioned_data)
