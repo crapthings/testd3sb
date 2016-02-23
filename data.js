@@ -1509,7 +1509,6 @@ function getItem1 () {
 
 }
 
-
 function getItems2 (min, max) {
 
 	var min = min || 3
@@ -1540,7 +1539,7 @@ function getItem2 () {
 function getItems3 (min, max) {
 
 	var min = min || 3
-	var max = max || 8
+	var max = max || 20
 
 	var data = []
 

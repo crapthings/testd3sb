@@ -5,6 +5,8 @@ function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
 var hue = d3.scale.category10();
 
+var color = d3.scale.category20c();
+
 var luminance = d3.scale.sqrt()
 	.domain([0, 1e6])
 	.clamp(true)
@@ -96,7 +98,9 @@ d3.json("./data.json", function(error, root) {
 	var gg = svg.append('g')
 
 	var center = gg.append("circle")
-		.attr('fill', 'skyblue')
+		.attr('fill', 'white')
+		.attr('stroke', 'white')
+		.attr('stroke-width', 2)
 		.attr("r", radius / 3)
 		.on("click", zoomOut);
 
@@ -104,21 +108,19 @@ d3.json("./data.json", function(error, root) {
 		.append("title")
 		.text("zoom out");
 
-	var currentPoint = gg.append('text')
-		.style('text-anchor', 'middle')
-		.style('fill', 'green')
-		.text(root.name)
-		.attr("pointer-events", "none")
-		
 	var partitioned_data=partition.nodes(root).slice(1)
 
 	var path = svg.selectAll("path")
 		.data(partitioned_data)
-	.enter().append("path")
+		.enter().append("path")
 		.attr("d", arc)
-		.style("fill", function(d) { return d.fill; })
+		.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+		// .style("fill", function(d) { return d.fill; })
 		.each(function(d) { this._current = updateArc(d); })
-		.on("click", zoomIn)
+		.on("click", function (p) {
+			center.attr('fill', this.style.fill)
+			zoomIn(p)
+		})
 		.on("mouseover", mouseOverArc)
 		.on("mousemove", mouseMoveArc)
 		.on("mouseout", mouseOutArc);
@@ -126,19 +128,25 @@ d3.json("./data.json", function(error, root) {
 		
 	var texts = svg.selectAll("text")
 		.data(partitioned_data)
-	.enter().append("text")
+		.enter().append("text")
 		.filter(filter_min_arc_size_text)    	
 		.attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
 		.attr("x", function(d) { return radius / 3 * d.depth; })	
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align	
 		.text(function(d,i) {
-			console.log(d)
 			return d.name
 		})
 		.attr("pointer-events", "none")
+		.attr('fill', 'black')
 
-	function zoomIn(p) {
+	var currentPoint = gg.append('text')
+		.style('text-anchor', 'middle')
+		.style('fill', 'black')
+		.text(root.name)
+		.attr("pointer-events", "none")
+
+	function zoomIn(p, node) {
 	if (p.depth > 1) p = p.parent;
 	if (!p.children) return;
 	zoom(p, p);
@@ -193,8 +201,12 @@ d3.json("./data.json", function(error, root) {
 			
 		path.enter().append("path")
 			.style("fill-opacity", function(d) { return d.depth === 2 - (root === p) ? 1 : 0; })
-			.style("fill", function(d) { return d.fill; })
-			.on("click", zoomIn)
+			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+			// .style("fill", function(d) { return d.fill; })
+			.on("click", function (p) {
+				center.attr('fill', this.style.fill)
+				zoomIn(p)
+			})
 			 .on("mouseover", mouseOverArc)
 		 .on("mousemove", mouseMoveArc)
 		 .on("mouseout", mouseOutArc)
@@ -205,10 +217,7 @@ d3.json("./data.json", function(error, root) {
 			.style("fill-opacity", 1)
 			.attrTween("d", function(d) { return arcTween.call(this, updateArc(d)); });
 			
-		
-		 
 	});
-	
 	
 	 texts = texts.data(new_data, function(d) { return d.key; })
 	 
@@ -226,8 +235,7 @@ d3.json("./data.json", function(error, root) {
 		.text(function(d,i) {return d.name})
 		.transition().delay(750).style("opacity", 1)
 		.attr("pointer-events", "none")
-		
-		 
+		.attr('fill', 'black')
 	}
 });
 
