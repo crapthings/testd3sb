@@ -93,7 +93,9 @@ d3.json("./data.json", function(error, root) {
 		.children(function(d, depth) { return depth < 2 ? d._children : null; })
 		.value(function(d) { return d.sum; });
 
-	var center = svg.append("circle")
+	var gg = svg.append('g')
+
+	var center = gg.append("circle")
 		.attr('fill', 'skyblue')
 		.attr("r", radius / 3)
 		.on("click", zoomOut);
@@ -102,13 +104,13 @@ d3.json("./data.json", function(error, root) {
 		.append("title")
 		.text("zoom out");
 
-	var currentPoint = svg.append('text')
+	var currentPoint = gg.append('text')
 		.style('text-anchor', 'middle')
 		.style('fill', 'green')
 		.text(root.name)
+		.attr("pointer-events", "none")
 		
-	var partitioned_data=partition.nodes(root).slice(1)
-	console.log(partitioned_data)
+	var partitioned_data=partition.nodes(root).slice(0)
 
 	var path = svg.selectAll("path")
 		.data(partitioned_data)
@@ -130,7 +132,10 @@ d3.json("./data.json", function(error, root) {
 		.attr("x", function(d) { return radius / 3 * d.depth; })	
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align	
-		.text(function(d,i) {return d.name})
+		.text(function(d,i) {
+			console.log(d)
+			return d.name
+		})
 		.attr("pointer-events", "none")
 
 	function zoomIn(p) {
