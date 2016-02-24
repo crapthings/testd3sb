@@ -3,13 +3,35 @@ var screen_width = window.screen.width / 2
 var depth = 1
 
 var margin = {top: screen_width, right: screen_width, bottom: screen_width, left: screen_width},
-	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 40;
+	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 20;
 
 function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
 var hue = d3.scale.category10();
 
 var color = d3.scale.category20();
+
+var color = d3.scale.ordinal()
+  // .domain(["New York", "San Francisco", "Austin"])
+  .range([
+  	"#F44336",
+  	"#E91E63",
+  	"#9C27B0",
+  	"#673AB7",
+  	"#3F51B5",
+  	"#2196F3",
+  	"#039BE5",
+  	"#0097A7",
+  	"#009688",
+  	"#43A047",
+  	"#689F38",
+  	"#827717",
+  	"#EF6C00",
+  	"#FF5722",
+  	"#795548",
+  	"#757575",
+  	"#607D8B",
+  	]);
 
 var luminance = d3.scale.sqrt()
 	.domain([0, 1e6])
@@ -45,7 +67,6 @@ function format_number(x) {
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-
 function format_description(d) {
 	var description = d.description;
 		return  '<b>' + d.name + '</b></br>'+ d.description + '<br> (' + format_number(d.value) + ')';
@@ -58,7 +79,7 @@ function computeTextRotation(d) {
 }
 
 function mouseOverArc(d) {
-	 d3.select(this).attr("stroke","green")
+	 d3.select(this).attr("stroke","#C6FF00")
 
 	tooltip.html(format_description(d));
 	return tooltip.transition()
@@ -73,8 +94,8 @@ function mouseOutArc(){
 
 function mouseMoveArc (d) {
 	return tooltip
-	.style("top", (d3.event.pageY-10)+"px")
-	.style("left", (d3.event.pageX+50)+"px");
+	// .style("top", (d3.event.pageY-10)+"px")
+	// .style("left", (d3.event.pageX+10)+"px");
 }
 
 var root_ = null;
@@ -147,7 +168,8 @@ d3.json("./data.json", function(error, root) {
 			// return d.name
 		})
 		.attr("pointer-events", "none")
-		.attr('fill', 'black')
+		.attr('fill', 'white')
+		.attr('z-index', 999)
 
 	var currentPoint = gg.append('text')
 		.style('text-anchor', 'middle')
@@ -249,7 +271,7 @@ d3.json("./data.json", function(error, root) {
 		})
 		.transition().delay(750).style("opacity", 1)
 		.attr("pointer-events", "none")
-		.attr('fill', 'black')
+		.attr('fill', 'white')
 	}
 });
 
