@@ -41,7 +41,7 @@ var luminance = d3.scale.sqrt()
 var svg = d3.select("body").append("svg")
 	.attr("id", "circle1")
 	.attr("width", margin.left + margin.right)
-	.attr("height", margin.top + margin.bottom)
+	.attr("height", margin.top + margin.bottom + 100)
 	.append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 	.style("filter", "url(#drop-shadow)")
@@ -66,7 +66,7 @@ var filter = svg.append("filter")
 // in blur
 filter.append("feGaussianBlur")
     .attr("in", "SourceAlpha")
-    .attr("stdDeviation", 3)
+    .attr("stdDeviation", 12)
     .attr("result", "blur")
 
 // translate output of Gaussian blur to the right and downwards with 2px
