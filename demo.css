@@ -42,4 +42,11 @@ circle {
 	display: block;
 	margin: 0 auto;
 	margin-top: 40px;
+	box-shadow: 4px 4px 4px rgba(255, 255, 255, .4)
+}
+
+text {
+    /*stroke: white;*/
+    /*stroke-width: 1px;*/
+    /*opacity: .9;*/
 }

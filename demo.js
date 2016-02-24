@@ -43,7 +43,8 @@ var svg = d3.select("body").append("svg")
 	.attr("width", margin.left + margin.right)
 	.attr("height", margin.top + margin.bottom)
 	.append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	.style("filter", "url(#drop-shadow)")
 
 var partition = d3.layout.partition()
 	.sort(function(a, b) { return d3.ascending(a.name, b.name); })
@@ -54,6 +55,36 @@ var arc = d3.svg.arc()
 	.endAngle(function(d) { return d.x + d.dx - .01 / (d.depth + .5); })
 	.innerRadius(function(d) { return radius / 3 * d.depth; })
 	.outerRadius(function(d) { return radius / 3 * (d.depth + 1) - 1; });
+
+var filter = svg.append("filter")
+    .attr("id", "drop-shadow")
+    .attr("height", "130%")
+
+
+// SourceAlpha refers to opacity of graphic that this filter will be applied to
+// convolve that with a Gaussian with standard deviation 3 and store result
+// in blur
+filter.append("feGaussianBlur")
+    .attr("in", "SourceAlpha")
+    .attr("stdDeviation", 3)
+    .attr("result", "blur")
+
+// translate output of Gaussian blur to the right and downwards with 2px
+// store result in offsetBlur
+filter.append("feOffset")
+    .attr("in", "blur")
+    .attr("dx", 5)
+    .attr("dy", 5)
+    .attr("result", "offsetBlur")
+
+// overlay original SourceGraphic over translated blurred opacity by using
+// feMerge filter. Order of specifying inputs is important!
+var feMerge = filter.append("feMerge");
+
+feMerge.append("feMergeNode")
+    .attr("in", "offsetBlur")
+feMerge.append("feMergeNode")
+    .attr("in", "SourceGraphic");
 
 //Tooltip description
 var tooltip = d3.select("body")
