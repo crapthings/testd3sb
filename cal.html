@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="cal-heatmap.css">
+	<link rel="stylesheet" href="demo.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+</head>
+<body>
+	<div id="cal-heatmap"></div>
+
+	<script src="lodash.min.js"></script>
+	<script src="d3.v3.min.js"></script>
+	<script src="cal-heatmap.js"></script>
+	<script src="jquery.min.js"></script>
+
+	<script type="text/javascript">
+		var cal = new CalHeatMap();
+		cal.init({
+			domain: 'month'
+		});
+	</script>
+</body>
+</html>
