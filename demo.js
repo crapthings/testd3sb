@@ -215,13 +215,21 @@ d3.json("./data.json", function(error, root) {
 	if (p.depth > 1) p = p.parent;
 	if (!p.children) return;
 	zoom(p, p);
-	currentPoint.text(p.name)
+	currentPoint
+		.text(p.name)
+		.style('fill', 'white')
 	}
 
 	function zoomOut(p) {
 	if (!p || !p.parent) return;
 	zoom(p.parent, p);
-	currentPoint.text(p.parent.name)
+	console.log(p)
+		if (p.parent && !p.parent.parent) {
+			console.log(1)
+			currentPoint.style('fill', 'black')
+			center.attr('fill', 'white')
+		}
+		currentPoint.text(p.parent.name)
 	}
 
 	// Zoom to the specified new root.
