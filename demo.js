@@ -1,9 +1,11 @@
-var screen_width = window.screen.width
+var screen_width = window.screen.width / 2
+
+var depth = 1
 
 var margin = {top: screen_width, right: screen_width, bottom: screen_width, left: screen_width},
-	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 20;
+	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 40;
 
-function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14}; 
+function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
 var hue = d3.scale.category10();
 
@@ -50,14 +52,14 @@ function format_description(d) {
 }
 
 function computeTextRotation(d) {
-	var angle=(d.x +d.dx/2)*180/Math.PI - 90	
-	
+	var angle=(d.x +d.dx/2)*180/Math.PI - 90
+
 	return angle;
 }
 
 function mouseOverArc(d) {
 	 d3.select(this).attr("stroke","green")
-	 
+
 	tooltip.html(format_description(d));
 	return tooltip.transition()
 	.duration(50)
@@ -81,7 +83,7 @@ d3.json("./data.json", function(error, root) {
 	// Compute the initial layout on the entire tree to sum sizes.
 	// Also compute the full name and fill color for each node,
 	// and stash the children so they can be restored as we descend.
-	
+
 	partition
 		.value(function(d) { return d.size; })
 		.nodes(root)
@@ -94,7 +96,7 @@ d3.json("./data.json", function(error, root) {
 
 	// Now redefine the value function to use the previously-computed sum.
 	partition
-		.children(function(d, depth) { return depth < 3 ? d._children : null; })
+		.children(function(d, depth) { return depth < 2 ? d._children : null; })
 		.value(function(d) {
 			return d.sum || _.random(40000, 50000);
 		});
@@ -128,18 +130,21 @@ d3.json("./data.json", function(error, root) {
 		.on("mouseover", mouseOverArc)
 		.on("mousemove", mouseMoveArc)
 		.on("mouseout", mouseOutArc);
-	
-		
+
+
 	var texts = svg.selectAll("text")
 		.data(partitioned_data)
 		.enter().append("text")
-		.filter(filter_min_arc_size_text)    	
+		.filter(filter_min_arc_size_text)
 		.attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
-		.attr("x", function(d) { return radius / 3 * d.depth; })	
+		.attr("x", function(d) { return radius / 3 * d.depth; })
 		.attr("dx", "6") // margin
-		.attr("dy", ".35em") // vertical-align	
+		.attr("dy", ".35em") // vertical-align
 		.text(function(d,i) {
-			return d.name
+			console.log(d)
+			if (d.depth == depth)
+				return d.name
+			// return d.name
 		})
 		.attr("pointer-events", "none")
 		.attr('fill', 'black')
@@ -188,11 +193,11 @@ d3.json("./data.json", function(error, root) {
 	// When zooming in, arcs enter from the outside and exit to the inside.
 	// Entering outside arcs start from the old layout.
 	if (root === p) enterArc = outsideArc, exitArc = insideArc, outsideAngle.range([p.x, p.x + p.dx]);
-	
+
 	var new_data=partition.nodes(root).slice(1)
 
 	path = path.data(new_data, function(d) { return d.key; });
-		 
+
 	 // When zooming out, arcs enter from the inside and exit to the outside.
 	// Exiting outside arcs transition to the new layout.
 	if (root !== p) enterArc = insideArc, exitArc = outsideArc, outsideAngle.range([p.x, p.x + p.dx]);
@@ -202,7 +207,7 @@ d3.json("./data.json", function(error, root) {
 			.style("fill-opacity", function(d) { return d.depth === 1 + (root === p) ? 1 : 0; })
 			.attrTween("d", function(d) { return arcTween.call(this, exitArc(d)); })
 			.remove();
-			
+
 		path.enter().append("path")
 			.style("fill-opacity", function(d) { return d.depth === 2 - (root === p) ? 1 : 0; })
 			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
@@ -220,26 +225,27 @@ d3.json("./data.json", function(error, root) {
 			.style("fill-opacity", 1)
 			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
 			.attrTween("d", function(d) { return arcTween.call(this, updateArc(d)); });
-			
+
 	});
-	
+
 	texts = texts.data(new_data, function(d) { return d.key; })
-	 
+
 	texts.exit()
-			 .remove()    
-	
+		 .remove()
+
 	texts.enter()
-			.append("text")
-		
+		.append("text")
+
 	texts.style("opacity", 0)
 		.attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
-		.attr("x", function(d) { return radius / 3 * d.depth; })	
+		.attr("x", function(d) { return radius / 3 * d.depth; })
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align
-		.filter(filter_min_arc_size_text)    	
+		.filter(filter_min_arc_size_text)
 		.text(function(d,i) {
 			console.log(d, i)
-			return d.name
+			if (d.depth == depth)
+				return d.name
 		})
 		.transition().delay(750).style("opacity", 1)
 		.attr("pointer-events", "none")
