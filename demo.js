@@ -3,9 +3,12 @@ var screen_width = window.screen.width / 2
 var depth = 1
 
 var margin = {top: screen_width, right: screen_width, bottom: screen_width, left: screen_width},
-	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 20;
+	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 60;
 
 function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
+
+var lastItem;
+var lastZoomInColor;
 
 var hue = d3.scale.category10();
 
@@ -100,7 +103,6 @@ function format_number(x) {
 
 function format_description(d) {
 	var description = d.description;
-	console.log()
 	if (d.parent)
 		return  '<b>' + d.parent.name + ' '+ d.name + ' (' + format_number(d.value) + ')';
 	else
@@ -152,7 +154,7 @@ d3.json("./data.json", function(error, root) {
 
 	// Now redefine the value function to use the previously-computed sum.
 	partition
-		.children(function(d, depth) { return depth < 2 ? d._children : null; })
+		.children(function(d, depth) { return depth < 3 ? d._children : null; })
 		.value(function(d) {
 			return d.sum || _.random(40000, 50000);
 		});
@@ -164,7 +166,9 @@ d3.json("./data.json", function(error, root) {
 		.attr('stroke', 'white')
 		.attr('stroke-width', 2)
 		.attr("r", radius / 3)
-		.on("click", zoomOut);
+		.on("click", function (p) {
+			zoomOut(p)
+		});
 
 	center
 		.append("title")
@@ -223,9 +227,7 @@ d3.json("./data.json", function(error, root) {
 	function zoomOut(p) {
 	if (!p || !p.parent) return;
 	zoom(p.parent, p);
-	console.log(p)
 		if (p.parent && !p.parent.parent) {
-			console.log(1)
 			currentPoint.style('fill', 'black')
 			center.attr('fill', 'white')
 		}
