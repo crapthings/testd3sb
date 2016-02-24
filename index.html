@@ -8,10 +8,29 @@
 </head>
 <body>
 
+<script src="hammer.min.js"></script>
 <script src="lodash.min.js"></script>
 <script src="d3.v3.min.js"></script>
 <script src="jquery.min.js"></script>
 <script src="demo.js"></script>
+<script>
+	var $el = $('#circle1')
+	console.log($el)
+	var hammertime = new Hammer($el[0], {
+        disableScroll: true,
+        duration: 1200
+    })
 
+    var pos = 0
+
+    hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+
+	hammertime.on('pan', function(ev) {
+	    var degrees = (pos += ev.deltaX) / 10
+	    $el.css({
+	    	'transform' : 'rotate('+ degrees +'deg)'
+	    })
+	});
+</script>
 </body>
 </html>
