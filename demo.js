@@ -69,6 +69,10 @@ function format_number(x) {
 
 function format_description(d) {
 	var description = d.description;
+	console.log()
+	if (d.parent)
+		return  '<b>' + d.parent.name + ' '+ d.name + ' (' + format_number(d.value) + ')';
+	else
 		return  '<b>' + d.name + ' '+ d.description + ' (' + format_number(d.value) + ')';
 }
 
@@ -162,7 +166,6 @@ d3.json("./data.json", function(error, root) {
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align
 		.text(function(d,i) {
-			console.log(d)
 			if (d.depth == depth)
 				return d.name
 			// return d.name
@@ -265,7 +268,6 @@ d3.json("./data.json", function(error, root) {
 		.attr("dy", ".35em") // vertical-align
 		.filter(filter_min_arc_size_text)
 		.text(function(d,i) {
-			console.log(d, i)
 			if (d.depth == depth)
 				return d.name
 		})
