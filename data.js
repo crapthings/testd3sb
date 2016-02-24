@@ -1114,17 +1114,19 @@ var __names = ['梅溪木材',
 '多福集团',
 '喜力控股']
 
+var level2 = 8
+
 var data = {
 	name: _.sample(__names),
 	description: _.sample(__names),
-	size: _.random(20, 30),
+	// size: level2,
 	children: getItems1()
 }
 
 function getItems1 (min, max) {
 
 	var min = min || 5
-	var max = max || 8
+	var max = max || 6
 
 	var data = []
 
@@ -1140,7 +1142,6 @@ function getItem1 () {
 	var data = {
 		name: _.sample(__names),
 		description: _.sample(__names),
-		size: _.random(20, 30),
 		children: getItems2()
 	}
 
@@ -1150,8 +1151,8 @@ function getItem1 () {
 
 function getItems2 (min, max) {
 
-	var min = min || 3
-	var max = max || 8
+	var min = min || 1
+	var max = max || 6
 
 	var data = []
 
@@ -1167,7 +1168,6 @@ function getItem2 () {
 	var data = {
 		name: _.sample(__names),
 		description: _.sample(__names),
-		size: _.random(20, 30),
 		children: getItems3()
 	}
 
@@ -1177,14 +1177,18 @@ function getItem2 () {
 
 function getItems3 (min, max) {
 
-	var min = min || 3
-	var max = max || 20
+	var min = min || 4
+	var max = max || 6
 
 	var data = []
 
-	_.times(_.random(min, max), function () {
-		data.push(getItem3())
-	})
+	var cond = _.sample([true, false])
+
+	if (cond) {
+		_.times(_.random(min, max), function () {
+			data.push(getItem3())
+		})
+	}
 
 	return data
 }
@@ -1193,14 +1197,43 @@ function getItem3 () {
 
 	var data = {
 		name: _.sample(__names),
-		description: _.sample(__names),
-		size: _.random(20, 30),
+		description: _.sample(__names)
 	}
 
 	return data
 
 }
- 
+
+function getItems4 (min, max) {
+
+	var min = min || 1
+	var max = max || 20
+
+	var data = []
+
+	if (_.sample([true, false])) {
+		_.times(_.random(min, max), function () {
+			data.push(getItem4())
+		})	
+		
+	}
+
+	return data
+	
+}
+
+function getItem4 () {
+
+	var data = {
+		name: _.sample(__names),
+		description: _.sample(__names),
+		size: _.random(10000)
+	}
+
+	return data
+
+}
+
 jsonfile.writeFile(file, data, {
 	spaces: 4
 }, function (err) {

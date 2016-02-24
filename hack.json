@@ -1,571 +1,380 @@
 {
-    "name": "沃尔沃集团",
-    "description": "公用事业联合公司",
-    "size": 21,
-    "children": [
-        {
-            "name": "国民西敏寺银行",
-            "description": "斯堪地亚集团",
-            "size": 23,
-            "children": [
-                {
-                    "name": "印度斯坦利华公司",
-                    "description": "中电控股有限公司",
-                    "size": 21,
-                    "children": [
-                        {
-                            "name": "乔治威斯顿",
-                            "description": "英国航空管理",
-                            "size": 25
-                        },
-                        {
-                            "name": "梅赛德斯-奔驰",
-                            "description": "德意志银行",
-                            "size": 28
-                        },
-                        {
-                            "name": "台湾茂矽电子",
-                            "description": "美集物流运输",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "毕博管理咨询",
-                    "description": "永隆银行",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "细胞基因系统公司",
-                            "description": "美利坚公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "国民西敏寺银行",
-                            "description": "西夫韦",
-                            "size": 30
-                        },
-                        {
-                            "name": "美商休斯电子材料",
-                            "description": "国家半导体公司",
-                            "size": 24
-                        },
-                        {
-                            "name": "柏灵顿资源",
-                            "description": "道富公司",
-                            "size": 25
-                        },
-                        {
-                            "name": "派翠克股份公司",
-                            "description": "礼来大药厂",
-                            "size": 26
-                        }
-                    ]
-                },
-                {
-                    "name": "新加坡交易所",
-                    "description": "美国通用配件公司",
-                    "size": 24,
-                    "children": [
-                        {
-                            "name": "希腊银行",
-                            "description": "纽威尔集团",
-                            "size": 23
-                        },
-                        {
-                            "name": "出光兴产",
-                            "description": "华宇电脑",
-                            "size": 29
-                        },
-                        {
-                            "name": "日本任天堂株式会社",
-                            "description": "雅培",
-                            "size": 21
-                        },
-                        {
-                            "name": "爱德万株式会社",
-                            "description": "澳洲地产集团",
-                            "size": 29
-                        }
-                    ]
-                },
-                {
-                    "name": "瑞来斯实业",
-                    "description": "藤泽药品工业公司",
-                    "size": 26,
-                    "children": [
-                        {
-                            "name": "马林克罗制药公司",
-                            "description": "国浩集团",
-                            "size": 28
-                        },
-                        {
-                            "name": "出光兴产",
-                            "description": "日本通运",
-                            "size": 29
-                        },
-                        {
-                            "name": "巴克莱银行",
-                            "description": "住友信托银行",
-                            "size": 30
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "株式会社小糸制作所",
-            "description": "杜邦",
-            "size": 29,
-            "children": [
-                {
-                    "name": "通用电气消费与工业产品集团",
-                    "description": "鲜京",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "美国航空集团",
-                            "description": "路透集团(品牌:路透社)",
-                            "size": 24
-                        },
-                        {
-                            "name": "日本通运",
-                            "description": "富贵草能源",
-                            "size": 21
-                        },
-                        {
-                            "name": "台湾积体电路制造股份有限公司",
-                            "description": "澳洲博彩集团",
-                            "size": 28
-                        }
-                    ]
-                },
-                {
-                    "name": "马自达汽车",
-                    "description": "苏格兰电力",
-                    "size": 20,
-                    "children": [
-                        {
-                            "name": "弗雷德马克",
-                            "description": "菲利普·莫里斯公司(品牌:万宝路)",
-                            "size": 28
-                        },
-                        {
-                            "name": "国民银行",
-                            "description": "山之内制药株式会社",
-                            "size": 29
-                        },
-                        {
-                            "name": "索威公司",
-                            "description": "现代重工",
-                            "size": 23
-                        },
-                        {
-                            "name": "达科亚洲",
-                            "description": "环隆电气",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "裕隆汽车制造",
-                    "description": "三星堂",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "日信工业株式会社",
-                            "description": "电通广告",
-                            "size": 21
-                        },
-                        {
-                            "name": "村田制作所",
-                            "description": "阿普雷拉公司",
-                            "size": 24
-                        },
-                        {
-                            "name": "麦当劳",
-                            "description": "派翠克股份公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "戴文能源",
-                            "description": "美国钢铁公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "自动车鋳物株式会社",
-                            "description": "陶氏化学",
-                            "size": 20
-                        },
-                        {
-                            "name": "意大利圣保罗银行",
-                            "description": "帝国烟草公司",
-                            "size": 21
-                        },
-                        {
-                            "name": "先进微电子器件公司",
-                            "description": "马林克罗制药公司",
-                            "size": 27
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "三星堂",
-            "description": "起亚汽车",
-            "size": 28,
-            "children": [
-                {
-                    "name": "组合国际计算机",
-                    "description": "静冈银行",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "露华浓",
-                            "description": "恒基兆业地产",
-                            "size": 27
-                        },
-                        {
-                            "name": "吉列德科技",
-                            "description": "中国信托金融控股股份有限公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "奥克美思公司",
-                            "description": "富塔巴工业株式会社",
-                            "size": 24
-                        },
-                        {
-                            "name": "斯必克",
-                            "description": "诺格舰船系统",
-                            "size": 20
-                        },
-                        {
-                            "name": "利宝相互保险",
-                            "description": "柯里药品集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "大荣",
-                            "description": "西班牙大众银行",
-                            "size": 29
-                        },
-                        {
-                            "name": "大和银行",
-                            "description": "日本NOK株式会社",
-                            "size": 20
-                        }
-                    ]
-                },
-                {
-                    "name": "肯德基",
-                    "description": "新加坡报业控股",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "台达化学工业",
-                            "description": "普莱克斯公司",
-                            "size": 23
-                        },
-                        {
-                            "name": "丰田车体株式会社",
-                            "description": "雅高集团",
-                            "size": 28
-                        },
-                        {
-                            "name": "国际商业机器公司",
-                            "description": "弗雷特伍德",
-                            "size": 25
-                        },
-                        {
-                            "name": "哈利伯顿",
-                            "description": "沃尔沃",
-                            "size": 24
-                        },
-                        {
-                            "name": "意大利电力",
-                            "description": "澳洲联合工业公司",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "普洛斯",
-                    "description": "南方",
-                    "size": 27,
-                    "children": [
-                        {
-                            "name": "苏格兰皇家银行",
-                            "description": "乐金化学",
-                            "size": 29
-                        },
-                        {
-                            "name": "北美三菱汽车",
-                            "description": "日产柴油汽车工业公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "伟易达",
-                            "description": "上海汽车",
-                            "size": 27
-                        },
-                        {
-                            "name": "波音",
-                            "description": "五月百货",
-                            "size": 30
-                        },
-                        {
-                            "name": "嘉里建设",
-                            "description": "信诺",
-                            "size": 22
-                        },
-                        {
-                            "name": "朝日生命",
-                            "description": "普莱克斯公司",
-                            "size": 24
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "农场食品",
-            "description": "芬欧汇川",
-            "size": 28,
-            "children": [
-                {
-                    "name": "花莎尼",
-                    "description": "纬创资通",
-                    "size": 20,
-                    "children": [
-                        {
-                            "name": "英国石油",
-                            "description": "西田信托",
-                            "size": 24
-                        },
-                        {
-                            "name": "尼康",
-                            "description": "新加坡航空",
-                            "size": 26
-                        },
-                        {
-                            "name": "佩特龙公司",
-                            "description": "埃克西尔能源",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "美国通用配件公司",
-                    "description": "汤姆逊",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "罗克韦尔",
-                            "description": "诺斯洛普格拉曼",
-                            "size": 30
-                        },
-                        {
-                            "name": "欧翁",
-                            "description": "澳洲联合工业公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "三星重工",
-                            "description": "国泰人寿",
-                            "size": 27
-                        },
-                        {
-                            "name": "加莱赫集团",
-                            "description": "东部制钢株式会社",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "阿普雷拉公司",
-                    "description": "瓦莱罗能源",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "台湾茂矽电子",
-                            "description": "中华电信",
-                            "size": 25
-                        },
-                        {
-                            "name": "韩国电力",
-                            "description": "大和房建",
-                            "size": 20
-                        },
-                        {
-                            "name": "北德意志银行NorddeutscheLandesb.",
-                            "description": "三井信托",
-                            "size": 30
-                        },
-                        {
-                            "name": "圣乔治银行",
-                            "description": "海外航运公司",
-                            "size": 25
-                        },
-                        {
-                            "name": "敦豪全球速递公司",
-                            "description": "甲骨文",
-                            "size": 25
-                        },
-                        {
-                            "name": "奥克美思公司",
-                            "description": "明治安田生命",
-                            "size": 22
-                        },
-                        {
-                            "name": "诺威治联合",
-                            "description": "大东电报局",
-                            "size": 21
-                        },
-                        {
-                            "name": "亚洲大西洋啤酒厂有限公司",
-                            "description": "中华电信",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "凯迪迪爱",
-                    "description": "乐金化学",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "万宝盛华",
-                            "description": "波士顿咨询公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "中国石油天然气",
-                            "description": "可口可乐企业",
-                            "size": 26
-                        },
-                        {
-                            "name": "拜维尔公司",
-                            "description": "三菱商事",
-                            "size": 23
-                        },
-                        {
-                            "name": "露华浓",
-                            "description": "雅芳产品",
-                            "size": 22
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "德国商业银行",
-            "description": "三井住友保险",
-            "size": 27,
-            "children": [
-                {
-                    "name": "国际游戏科技公司",
-                    "description": "阿西布朗勃法瑞",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "精工爱普生",
-                            "description": "西班牙大众银行",
-                            "size": 20
-                        },
-                        {
-                            "name": "富贵草能源",
-                            "description": "罗技国际集团公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "中国工商银行",
-                            "description": "施耐德公司",
-                            "size": 20
-                        },
-                        {
-                            "name": "印度斯坦利华公司",
-                            "description": "赛诺菲圣德拉堡",
-                            "size": 21
-                        },
-                        {
-                            "name": "中国人造纤维",
-                            "description": "伊士曼柯达(品牌:柯达)",
-                            "size": 27
-                        },
-                        {
-                            "name": "玛京多",
-                            "description": "直布罗陀保险",
-                            "size": 22
-                        },
-                        {
-                            "name": "高伦油化公司",
-                            "description": "新日本石油",
-                            "size": 30
-                        },
-                        {
-                            "name": "中国人寿",
-                            "description": "农业信贷银行",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "和记电讯",
-                    "description": "中国南方电网",
-                    "size": 24,
-                    "children": [
-                        {
-                            "name": "博思艾伦咨询公司",
-                            "description": "基尔比公司",
-                            "size": 26
-                        },
-                        {
-                            "name": "国家汽车经销有限公司",
-                            "description": "淡水河谷公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "联邦电力委员会(墨西哥)",
-                            "description": "大荣",
-                            "size": 20
-                        }
-                    ]
-                },
-                {
-                    "name": "关东自动车工业株式会社",
-                    "description": "塔吉特",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "雅培",
-                            "description": "马来亚银行",
-                            "size": 22
-                        },
-                        {
-                            "name": "默克制药",
-                            "description": "国际体重监视公司",
-                            "size": 29
-                        },
-                        {
-                            "name": "联合商业银行",
-                            "description": "新加坡科技工程",
-                            "size": 30
-                        },
-                        {
-                            "name": "先灵",
-                            "description": "菲利普·莫里斯公司(品牌:万宝路)",
-                            "size": 20
-                        },
-                        {
-                            "name": "电子艺界",
-                            "description": "英国石油",
-                            "size": 21
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 3938},
+      {"name": "CommunityStructure", "size": 3812},
+      {"name": "HierarchicalCluster", "size": 6714},
+      {"name": "MergeEdge", "size": 743}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 3534},
+      {"name": "LinkDistance", "size": 5731},
+      {"name": "MaxFlowMinCut", "size": 7840},
+      {"name": "ShortestPaths", "size": 5914},
+      {"name": "SpanningTree", "size": 3416}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [
+    {"name": "Easing", "size": 17010},
+    {"name": "FunctionSequence", "size": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "size": 1983},
+      {"name": "ColorInterpolator", "size": 2047},
+      {"name": "DateInterpolator", "size": 1375},
+      {"name": "Interpolator", "size": 8746},
+      {"name": "MatrixInterpolator", "size": 2202},
+      {"name": "NumberInterpolator", "size": 1382},
+      {"name": "ObjectInterpolator", "size": 1629},
+      {"name": "PointInterpolator", "size": 1675},
+      {"name": "RectangleInterpolator", "size": 2042}
+     ]
+    },
+    {"name": "ISchedulable", "size": 1041},
+    {"name": "Parallel", "size": 5176},
+    {"name": "Pause", "size": 449},
+    {"name": "Scheduler", "size": 5593},
+    {"name": "Sequence", "size": 5534},
+    {"name": "Transition", "size": 9201},
+    {"name": "Transitioner", "size": 19975},
+    {"name": "TransitionEvent", "size": 1116},
+    {"name": "Tween", "size": 6006}
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters", "size": 721},
+      {"name": "DelimitedTextConverter", "size": 4294},
+      {"name": "GraphMLConverter", "size": 9800},
+      {"name": "IDataConverter", "size": 1314},
+      {"name": "JSONConverter", "size": 2220}
+     ]
+    },
+    {"name": "DataField", "size": 1759},
+    {"name": "DataSchema", "size": 2165},
+    {"name": "DataSet", "size": 586},
+    {"name": "DataSource", "size": 3331},
+    {"name": "DataTable", "size": 772},
+    {"name": "DataUtil", "size": 3322}
+   ]
+  },
+  {
+   "name": "display",
+   "children": [
+    {"name": "DirtySprite", "size": 8833},
+    {"name": "LineSprite", "size": 1732},
+    {"name": "RectSprite", "size": 3623},
+    {"name": "TextSprite", "size": 10066}
+   ]
+  },
+  {
+   "name": "flex",
+   "children": [
+    {"name": "FlareVis", "size": 4116}
+   ]
+  },
+  {
+   "name": "physics",
+   "children": [
+    {"name": "DragForce", "size": 1082},
+    {"name": "GravityForce", "size": 1336},
+    {"name": "IForce", "size": 319},
+    {"name": "NBodyForce", "size": 10498},
+    {"name": "Particle", "size": 2822},
+    {"name": "Simulation", "size": 9983},
+    {"name": "Spring", "size": 2213},
+    {"name": "SpringForce", "size": 1681}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "AggregateExpression", "size": 1616},
+    {"name": "And", "size": 1027},
+    {"name": "Arithmetic", "size": 3891},
+    {"name": "Average", "size": 891},
+    {"name": "BinaryExpression", "size": 2893},
+    {"name": "Comparison", "size": 5103},
+    {"name": "CompositeExpression", "size": 3677},
+    {"name": "Count", "size": 781},
+    {"name": "DateUtil", "size": 4141},
+    {"name": "Distinct", "size": 933},
+    {"name": "Expression", "size": 5130},
+    {"name": "ExpressionIterator", "size": 3617},
+    {"name": "Fn", "size": 3240},
+    {"name": "If", "size": 2732},
+    {"name": "IsA", "size": 2039},
+    {"name": "Literal", "size": 1214},
+    {"name": "Match", "size": 3748},
+    {"name": "Maximum", "size": 843},
+    {
+     "name": "methods",
+     "children": [
+      {"name": "add", "size": 593},
+      {"name": "and", "size": 330},
+      {"name": "average", "size": 287},
+      {"name": "count", "size": 277},
+      {"name": "distinct", "size": 292},
+      {"name": "div", "size": 595},
+      {"name": "eq", "size": 594},
+      {"name": "fn", "size": 460},
+      {"name": "gt", "size": 603},
+      {"name": "gte", "size": 625},
+      {"name": "iff", "size": 748},
+      {"name": "isa", "size": 461},
+      {"name": "lt", "size": 597},
+      {"name": "lte", "size": 619},
+      {"name": "max", "size": 283},
+      {"name": "min", "size": 283},
+      {"name": "mod", "size": 591},
+      {"name": "mul", "size": 603},
+      {"name": "neq", "size": 599},
+      {"name": "not", "size": 386},
+      {"name": "or", "size": 323},
+      {"name": "orderby", "size": 307},
+      {"name": "range", "size": 772},
+      {"name": "select", "size": 296},
+      {"name": "stddev", "size": 363},
+      {"name": "sub", "size": 600},
+      {"name": "sum", "size": 280},
+      {"name": "update", "size": 307},
+      {"name": "variance", "size": 335},
+      {"name": "where", "size": 299},
+      {"name": "xor", "size": 354},
+      {"name": "_", "size": 264}
+     ]
+    },
+    {"name": "Minimum", "size": 843},
+    {"name": "Not", "size": 1554},
+    {"name": "Or", "size": 970},
+    {"name": "Query", "size": 13896},
+    {"name": "Range", "size": 1594},
+    {"name": "StringUtil", "size": 4130},
+    {"name": "Sum", "size": 791},
+    {"name": "Variable", "size": 1124},
+    {"name": "Variance", "size": 1876},
+    {"name": "Xor", "size": 1101}
+   ]
+  },
+  {
+   "name": "scale",
+   "children": [
+    {"name": "IScaleMap", "size": 2105},
+    {"name": "LinearScale", "size": 1316},
+    {"name": "LogScale", "size": 3151},
+    {"name": "OrdinalScale", "size": 3770},
+    {"name": "QuantileScale", "size": 2435},
+    {"name": "QuantitativeScale", "size": 4839},
+    {"name": "RootScale", "size": 1756},
+    {"name": "Scale", "size": 4268},
+    {"name": "ScaleType", "size": 1821},
+    {"name": "TimeScale", "size": 5833}
+   ]
+  },
+  {
+   "name": "util",
+   "children": [
+    {"name": "Arrays", "size": 8258},
+    {"name": "Colors", "size": 10001},
+    {"name": "Dates", "size": 8217},
+    {"name": "Displays", "size": 12555},
+    {"name": "Filter", "size": 2324},
+    {"name": "Geometry", "size": 10993},
+    {
+     "name": "heap",
+     "children": [
+      {"name": "FibonacciHeap", "size": 9354},
+      {"name": "HeapNode", "size": 1233}
+     ]
+    },
+    {"name": "IEvaluable", "size": 335},
+    {"name": "IPredicate", "size": 383},
+    {"name": "IValueProxy", "size": 874},
+    {
+     "name": "math",
+     "children": [
+      {"name": "DenseMatrix", "size": 3165},
+      {"name": "IMatrix", "size": 2815},
+      {"name": "SparseMatrix", "size": 3366}
+     ]
+    },
+    {"name": "Maths", "size": 17705},
+    {"name": "Orientation", "size": 1486},
+    {
+     "name": "palette",
+     "children": [
+      {"name": "ColorPalette", "size": 6367},
+      {"name": "Palette", "size": 1229},
+      {"name": "ShapePalette", "size": 2059},
+      {"name": "SizePalette", "size": 2291}
+     ]
+    },
+    {"name": "Property", "size": 5559},
+    {"name": "Shapes", "size": 19118},
+    {"name": "Sort", "size": 6887},
+    {"name": "Stats", "size": 6557},
+    {"name": "Strings", "size": 22026}
+   ]
+  },
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "axis",
+     "children": [
+      {"name": "Axes", "size": 1302},
+      {"name": "Axis", "size": 24593},
+      {"name": "AxisGridLine", "size": 652},
+      {"name": "AxisLabel", "size": 636},
+      {"name": "CartesianAxes", "size": 6703}
+     ]
+    },
+    {
+     "name": "controls",
+     "children": [
+      {"name": "AnchorControl", "size": 2138},
+      {"name": "ClickControl", "size": 3824},
+      {"name": "Control", "size": 1353},
+      {"name": "ControlList", "size": 4665},
+      {"name": "DragControl", "size": 2649},
+      {"name": "ExpandControl", "size": 2832},
+      {"name": "HoverControl", "size": 4896},
+      {"name": "IControl", "size": 763},
+      {"name": "PanZoomControl", "size": 5222},
+      {"name": "SelectionControl", "size": 7862},
+      {"name": "TooltipControl", "size": 8435}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "Data", "size": 20544},
+      {"name": "DataList", "size": 19788},
+      {"name": "DataSprite", "size": 10349},
+      {"name": "EdgeSprite", "size": 3301},
+      {"name": "NodeSprite", "size": 19382},
+      {
+       "name": "render",
+       "children": [
+        {"name": "ArrowType", "size": 698},
+        {"name": "EdgeRenderer", "size": 5569},
+        {"name": "IRenderer", "size": 353},
+        {"name": "ShapeRenderer", "size": 2247}
+       ]
+      },
+      {"name": "ScaleBinding", "size": 11275},
+      {"name": "Tree", "size": 7147},
+      {"name": "TreeBuilder", "size": 9930}
+     ]
+    },
+    {
+     "name": "events",
+     "children": [
+      {"name": "DataEvent", "size": 2313},
+      {"name": "SelectionEvent", "size": 1880},
+      {"name": "TooltipEvent", "size": 1701},
+      {"name": "VisualizationEvent", "size": 1117}
+     ]
+    },
+    {
+     "name": "legend",
+     "children": [
+      {"name": "Legend", "size": 20859},
+      {"name": "LegendItem", "size": 4614},
+      {"name": "LegendRange", "size": 10530}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "distortion",
+       "children": [
+        {"name": "BifocalDistortion", "size": 4461},
+        {"name": "Distortion", "size": 6314},
+        {"name": "FisheyeDistortion", "size": 3444}
+       ]
+      },
+      {
+       "name": "encoder",
+       "children": [
+        {"name": "ColorEncoder", "size": 3179},
+        {"name": "Encoder", "size": 4060},
+        {"name": "PropertyEncoder", "size": 4138},
+        {"name": "ShapeEncoder", "size": 1690},
+        {"name": "SizeEncoder", "size": 1830}
+       ]
+      },
+      {
+       "name": "filter",
+       "children": [
+        {"name": "FisheyeTreeFilter", "size": 5219},
+        {"name": "GraphDistanceFilter", "size": 3165},
+        {"name": "VisibilityFilter", "size": 3509}
+       ]
+      },
+      {"name": "IOperator", "size": 1286},
+      {
+       "name": "label",
+       "children": [
+        {"name": "Labeler", "size": 9956},
+        {"name": "RadialLabeler", "size": 3899},
+        {"name": "StackedAreaLabeler", "size": 3202}
+       ]
+      },
+      {
+       "name": "layout",
+       "children": [
+        {"name": "AxisLayout", "size": 6725},
+        {"name": "BundledEdgeRouter", "size": 3727},
+        {"name": "CircleLayout", "size": 9317},
+        {"name": "CirclePackingLayout", "size": 12003},
+        {"name": "DendrogramLayout", "size": 4853},
+        {"name": "ForceDirectedLayout", "size": 8411},
+        {"name": "IcicleTreeLayout", "size": 4864},
+        {"name": "IndentedTreeLayout", "size": 3174},
+        {"name": "Layout", "size": 7881},
+        {"name": "NodeLinkTreeLayout", "size": 12870},
+        {"name": "PieLayout", "size": 2728},
+        {"name": "RadialTreeLayout", "size": 12348},
+        {"name": "RandomLayout", "size": 870},
+        {"name": "StackedAreaLayout", "size": 9121},
+        {"name": "TreeMapLayout", "size": 9191}
+       ]
+      },
+      {"name": "Operator", "size": 2490},
+      {"name": "OperatorList", "size": 5248},
+      {"name": "OperatorSequence", "size": 4190},
+      {"name": "OperatorSwitch", "size": 2581},
+      {"name": "SortOperator", "size": 2023}
+     ]
+    },
+    {"name": "Visualization", "size": 16540}
+   ]
+  }
+ ]
 }

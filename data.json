@@ -1,3040 +1,365 @@
 {
-    "name": "沃特迪斯尼",
-    "description": "马尼托瓦克",
-    "size": 22,
+    "name": "西田信托",
+    "description": "英国航空管理",
     "children": [
         {
-            "name": "温迪克斯",
-            "description": "标致",
-            "size": 24,
+            "name": "凯德置地",
+            "description": "高伦油化公司",
             "children": [
                 {
-                    "name": "普莱斯多姆",
-                    "description": "西武铁道",
-                    "size": 30,
+                    "name": "亨氏",
+                    "description": "楠梓电子",
+                    "children": []
+                },
+                {
+                    "name": "中国人寿",
+                    "description": "宏利保险",
                     "children": [
                         {
-                            "name": "可口可乐企业",
-                            "description": "英格索兰",
-                            "size": 22
+                            "name": "杰尔系统",
+                            "description": "东讯"
                         },
                         {
-                            "name": "布依格",
-                            "description": "范妮梅",
-                            "size": 22
+                            "name": "麦克森",
+                            "description": "德州公用"
                         },
                         {
-                            "name": "捷蓝航空公司",
-                            "description": "第一生命",
-                            "size": 27
+                            "name": "康明斯",
+                            "description": "安盛"
                         },
                         {
-                            "name": "千禧控股",
-                            "description": "宜家",
-                            "size": 20
+                            "name": "亚马逊",
+                            "description": "铃木汽车"
                         },
                         {
-                            "name": "费森尤斯医疗",
-                            "description": "阿塞洛",
-                            "size": 21
+                            "name": "力丽企业",
+                            "description": "甲骨文"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "家乐福",
+            "description": "威秀",
+            "children": [
+                {
+                    "name": "统一爱迪生",
+                    "description": "国浩集团",
+                    "children": [
+                        {
+                            "name": "东方乐园",
+                            "description": "英杰华"
                         },
                         {
-                            "name": "直布罗陀保险",
-                            "description": "伊兰",
-                            "size": 26
+                            "name": "奎斯特诊断",
+                            "description": "永明金融"
                         },
                         {
-                            "name": "艾欧史密斯",
-                            "description": "现代重工",
-                            "size": 27
+                            "name": "斯克里普斯",
+                            "description": "飞利浦半导体"
                         },
                         {
-                            "name": "纽约时报",
-                            "description": "计算机科学",
-                            "size": 23
-                        },
-                        {
-                            "name": "罗门哈斯",
-                            "description": "第一劝业银行",
-                            "size": 27
+                            "name": "辉瑞",
+                            "description": "统一爱迪生"
                         },
                         {
                             "name": "意大利电力",
-                            "description": "东京瓦斯",
-                            "size": 25
+                            "description": "希腊电信"
+                        }
+                    ]
+                },
+                {
+                    "name": "泛亚班拿",
+                    "description": "凯业集团",
+                    "children": [
+                        {
+                            "name": "新光合成纤维",
+                            "description": "惠好"
                         },
                         {
-                            "name": "新加坡航空",
-                            "description": "联邦快递",
-                            "size": 27
+                            "name": "上海汽车",
+                            "description": "日本邮政"
                         },
                         {
-                            "name": "中国联通",
-                            "description": "丰兴钢铁",
-                            "size": 28
+                            "name": "施耐德公司",
+                            "description": "弗雷特伍德"
                         },
                         {
-                            "name": "中华映管",
-                            "description": "可口可乐",
-                            "size": 30
+                            "name": "嘉里建设",
+                            "description": "合生创展"
                         },
                         {
-                            "name": "希尔顿酒店",
-                            "description": "神户制钢",
-                            "size": 30
+                            "name": "肯德基",
+                            "description": "嘉信理财集团"
+                        }
+                    ]
+                },
+                {
+                    "name": "大成建设",
+                    "description": "堤客海运公司",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "南方",
+            "description": "索斯考普",
+            "children": [
+                {
+                    "name": "丹纳赫集团",
+                    "description": "三菱电机",
+                    "children": [
+                        {
+                            "name": "华盛顿互助",
+                            "description": "乔治·阿玛尼"
                         },
                         {
-                            "name": "乐金国际",
-                            "description": "北方信托",
-                            "size": 30
+                            "name": "拉法基",
+                            "description": "日本能源"
                         },
                         {
-                            "name": "马士基集团",
-                            "description": "嘉盛半导体",
-                            "size": 25
+                            "name": "歌林",
+                            "description": "特易购"
                         },
                         {
-                            "name": "国营石化公司",
-                            "description": "第一能源",
-                            "size": 20
+                            "name": "雷诺",
+                            "description": "百特国际"
+                        }
+                    ]
+                },
+                {
+                    "name": "西班牙天然气",
+                    "description": "亚马逊",
+                    "children": [
+                        {
+                            "name": "弗雷特伍德",
+                            "description": "爱迪生"
                         },
                         {
-                            "name": "圣波纳",
-                            "description": "大众电脑",
-                            "size": 26
+                            "name": "全美汽车租赁",
+                            "description": "斗山"
                         },
                         {
-                            "name": "德莱赛集团",
-                            "description": "绍尔医药",
-                            "size": 28
+                            "name": "汤姆森",
+                            "description": "东京急行"
                         },
                         {
-                            "name": "地平线公司",
-                            "description": "西太平洋银行",
-                            "size": 27
+                            "name": "凯德置地",
+                            "description": "波兰商业银行"
+                        },
+                        {
+                            "name": "中国南方电网",
+                            "description": "印尼电信"
+                        },
+                        {
+                            "name": "东亚银行",
+                            "description": "英格索兰"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "世亚制钢",
+            "description": "杨忠礼机构",
+            "children": [
+                {
+                    "name": "西澳银行",
+                    "description": "长荣海运公司",
+                    "children": []
+                },
+                {
+                    "name": "伊藤忠",
+                    "description": "东元电机",
+                    "children": [
+                        {
+                            "name": "尤克斯",
+                            "description": "意大利电力"
+                        },
+                        {
+                            "name": "友讯科技",
+                            "description": "三井不动产"
+                        },
+                        {
+                            "name": "村田制作所",
+                            "description": "嘉盛半导体"
+                        },
+                        {
+                            "name": "意大利电信",
+                            "description": "嘉纳公司"
+                        },
+                        {
+                            "name": "马斯柯",
+                            "description": "戴恩金属公司"
+                        },
+                        {
+                            "name": "联合包裹服务",
+                            "description": "康福德高"
+                        }
+                    ]
+                },
+                {
+                    "name": "鹿岛",
+                    "description": "利宝相互保险",
+                    "children": [
+                        {
+                            "name": "全日空",
+                            "description": "诺瓦瓦克斯"
+                        },
+                        {
+                            "name": "阿尔卡特",
+                            "description": "三宝垄计算机"
+                        },
+                        {
+                            "name": "东丽株式会社",
+                            "description": "孟山都公司"
+                        },
+                        {
+                            "name": "三星生命",
+                            "description": "澳洲航空"
+                        },
+                        {
+                            "name": "马里兹公司",
+                            "description": "洛克希德马丁"
+                        },
+                        {
+                            "name": "梅隆金融公司",
+                            "description": "科凯国际集团"
+                        }
+                    ]
+                },
+                {
+                    "name": "沃达丰控股",
+                    "description": "乔治·阿玛尼",
+                    "children": [
+                        {
+                            "name": "杜邦",
+                            "description": "印尼国家银行"
+                        },
+                        {
+                            "name": "创新科技",
+                            "description": "温迪克斯"
+                        },
+                        {
+                            "name": "长江基建",
+                            "description": "康明斯"
+                        },
+                        {
+                            "name": "易趣",
+                            "description": "阿斯特拉"
+                        },
+                        {
+                            "name": "桑托斯",
+                            "description": "法国电信"
+                        }
+                    ]
+                },
+                {
+                    "name": "华盛顿互助",
+                    "description": "美国北方银行",
+                    "children": []
+                },
+                {
+                    "name": "派克汉尼汾",
+                    "description": "爱生雅集团",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "国营石化公司",
+            "description": "通用动力",
+            "children": [
+                {
+                    "name": "德国裕宝银行",
+                    "description": "凯马特",
+                    "children": [
+                        {
+                            "name": "金霸王",
+                            "description": "华夏海湾塑胶"
+                        },
+                        {
+                            "name": "葛兰素史克",
+                            "description": "丘博"
+                        },
+                        {
+                            "name": "南非金田",
+                            "description": "奥姆尼康集团"
+                        },
+                        {
+                            "name": "长江基建",
+                            "description": "金巴斯集团"
                         }
                     ]
                 },
                 {
                     "name": "科美利加",
-                    "description": "安捷伦科技",
-                    "size": 26,
+                    "description": "瑞穗信托银行",
                     "children": [
-                        {
-                            "name": "安捷伦科技",
-                            "description": "冠东",
-                            "size": 25
-                        },
-                        {
-                            "name": "海外航运公司",
-                            "description": "亿旺资讯服务",
-                            "size": 26
-                        },
-                        {
-                            "name": "阿达迪斯",
-                            "description": "梅恩集团",
-                            "size": 24
-                        },
-                        {
-                            "name": "法国巴黎银行",
-                            "description": "爱尔康",
-                            "size": 22
-                        },
-                        {
-                            "name": "劲永国际",
-                            "description": "中国移动通信",
-                            "size": 25
-                        },
-                        {
-                            "name": "美国西部",
-                            "description": "拉法基",
-                            "size": 22
-                        },
-                        {
-                            "name": "索尼",
-                            "description": "裕元工业",
-                            "size": 21
-                        },
-                        {
-                            "name": "英业达",
-                            "description": "东和钢铁企业",
-                            "size": 23
-                        },
-                        {
-                            "name": "万喜",
-                            "description": "皇家邮政集团",
-                            "size": 22
-                        },
-                        {
-                            "name": "雷曼兄弟",
-                            "description": "泰京银行",
-                            "size": 28
-                        },
-                        {
-                            "name": "福懋兴业",
-                            "description": "佳能",
-                            "size": 29
-                        },
-                        {
-                            "name": "爱生雅集团",
-                            "description": "米塔尔钢铁",
-                            "size": 21
-                        },
                         {
                             "name": "永明金融",
-                            "description": "泰国京都水泥",
-                            "size": 28
-                        },
-                        {
-                            "name": "农业信贷银行",
-                            "description": "道达尔",
-                            "size": 28
-                        },
-                        {
-                            "name": "美国国际集团",
-                            "description": "太阳信用银行",
-                            "size": 21
-                        },
-                        {
-                            "name": "中兴通讯",
-                            "description": "雷神",
-                            "size": 22
-                        },
-                        {
-                            "name": "马士基集团",
-                            "description": "三井不动产",
-                            "size": 29
-                        },
-                        {
-                            "name": "麦肯锡",
-                            "description": "澳新银行",
-                            "size": 24
-                        },
-                        {
-                            "name": "沃尔沃",
-                            "description": "联华电子",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "联合航空",
-                    "description": "洲际酒店集团",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "富通",
-                            "description": "五十铃汽车",
-                            "size": 29
-                        },
-                        {
-                            "name": "英特尔",
-                            "description": "梅隆金融公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "毕曼特拉集团",
-                            "description": "丽台科技",
-                            "size": 22
-                        },
-                        {
-                            "name": "世亚制钢",
-                            "description": "华硕电脑",
-                            "size": 23
-                        },
-                        {
-                            "name": "美国国际集团",
-                            "description": "三菱材料",
-                            "size": 22
-                        },
-                        {
-                            "name": "英维思集团",
-                            "description": "现代综合商事",
-                            "size": 26
-                        },
-                        {
-                            "name": "五十铃汽车",
-                            "description": "印尼电信",
-                            "size": 29
-                        },
-                        {
-                            "name": "宏远兴业",
-                            "description": "加拿大铝业",
-                            "size": 21
-                        },
-                        {
-                            "name": "惠好",
-                            "description": "北电网络",
-                            "size": 22
-                        },
-                        {
-                            "name": "花旗集团",
-                            "description": "本田汽车",
-                            "size": 25
-                        },
-                        {
-                            "name": "安宝",
-                            "description": "印尼国家银行",
-                            "size": 25
-                        },
-                        {
-                            "name": "澳洲博彩集团",
-                            "description": "纽威尔集团",
-                            "size": 25
-                        }
-                    ]
-                },
-                {
-                    "name": "可隆公司",
-                    "description": "通用食品",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "第一劝业银行",
-                            "description": "费森尤斯医疗",
-                            "size": 30
-                        },
-                        {
-                            "name": "竹中",
-                            "description": "三星物产",
-                            "size": 25
-                        },
-                        {
-                            "name": "阿克苏诺贝尔",
-                            "description": "泰国国家石油",
-                            "size": 23
-                        },
-                        {
-                            "name": "曼恩集团",
-                            "description": "新宝科技",
-                            "size": 25
-                        },
-                        {
-                            "name": "正大制药",
-                            "description": "摩托罗拉",
-                            "size": 24
-                        },
-                        {
-                            "name": "东和钢铁企业",
-                            "description": "保德电机",
-                            "size": 21
-                        },
-                        {
-                            "name": "大东电报局",
-                            "description": "东讯",
-                            "size": 30
-                        },
-                        {
-                            "name": "中部电力",
-                            "description": "夏奈尔",
-                            "size": 22
-                        },
-                        {
-                            "name": "第一生命",
-                            "description": "韩国电力",
-                            "size": 22
-                        },
-                        {
-                            "name": "康菲",
-                            "description": "农场食品",
-                            "size": 20
-                        },
-                        {
-                            "name": "康列得",
-                            "description": "南贝尔",
-                            "size": 20
-                        },
-                        {
-                            "name": "汉森",
-                            "description": "盖茨公司",
-                            "size": 29
-                        },
-                        {
-                            "name": "阿法玛",
-                            "description": "艾地盟",
-                            "size": 20
-                        },
-                        {
-                            "name": "斯堪地亚集团",
-                            "description": "长兴化学工业",
-                            "size": 22
-                        },
-                        {
-                            "name": "伊藤忠",
-                            "description": "西北相互",
-                            "size": 23
-                        },
-                        {
-                            "name": "兴业资本",
-                            "description": "微波通信",
-                            "size": 28
-                        },
-                        {
-                            "name": "莱茵集团",
-                            "description": "桑斯博里",
-                            "size": 26
-                        }
-                    ]
-                },
-                {
-                    "name": "康力斯集团",
-                    "description": "英杰华",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "汉森",
-                            "description": "阿拉迪姆",
-                            "size": 23
-                        },
-                        {
-                            "name": "美国运通",
-                            "description": "西夫韦",
-                            "size": 25
-                        },
-                        {
-                            "name": "花旗集团",
-                            "description": "超价商店",
-                            "size": 20
-                        },
-                        {
-                            "name": "喜达屋",
-                            "description": "嘉盛半导体",
-                            "size": 26
-                        },
-                        {
-                            "name": "西部无线公司",
-                            "description": "甘保险集团",
-                            "size": 20
-                        },
-                        {
-                            "name": "蒂森克虏伯",
-                            "description": "米高梅",
-                            "size": 30
-                        },
-                        {
-                            "name": "三井物产",
-                            "description": "百特国际",
-                            "size": 30
-                        },
-                        {
-                            "name": "富士通",
-                            "description": "国巨",
-                            "size": 25
-                        },
-                        {
-                            "name": "拉卡德尔",
-                            "description": "马克卡车公司",
-                            "size": 23
-                        },
-                        {
-                            "name": "玩具反斗店",
-                            "description": "明治安田生命",
-                            "size": 28
-                        },
-                        {
-                            "name": "美国本田公司",
-                            "description": "力拓矿业集团",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "浦项制铁",
-                    "description": "波音",
-                    "size": 20,
-                    "children": [
-                        {
-                            "name": "杰尔系统",
-                            "description": "阿普雷拉公司",
-                            "size": 26
-                        },
-                        {
-                            "name": "家乐福",
-                            "description": "国产实业建设",
-                            "size": 30
-                        },
-                        {
-                            "name": "信和置业",
-                            "description": "味全食品工业",
-                            "size": 26
-                        },
-                        {
-                            "name": "丰田通商",
-                            "description": "中部电力",
-                            "size": 23
-                        },
-                        {
-                            "name": "蒙特利尔银行",
-                            "description": "高岛屋",
-                            "size": 28
-                        },
-                        {
-                            "name": "福懋兴业",
-                            "description": "德国商业银行",
-                            "size": 24
-                        },
-                        {
-                            "name": "温迪克斯",
-                            "description": "凸版印刷",
-                            "size": 24
-                        }
-                    ]
-                },
-                {
-                    "name": "翠丰",
-                    "description": "凯马特",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "哈利伯顿",
-                            "description": "理光",
-                            "size": 25
-                        },
-                        {
-                            "name": "抗遗传公司",
-                            "description": "希尔顿集团",
-                            "size": 23
-                        },
-                        {
-                            "name": "帝国烟草公司",
-                            "description": "雷神",
-                            "size": 30
-                        },
-                        {
-                            "name": "查蒂姆",
-                            "description": "印尼水泥集团",
-                            "size": 25
-                        },
-                        {
-                            "name": "劳氏",
-                            "description": "温尼巴格",
-                            "size": 20
-                        },
-                        {
-                            "name": "国娃利亚公司",
-                            "description": "礼来大药厂",
-                            "size": 23
-                        },
-                        {
-                            "name": "戴纳基",
-                            "description": "丽星游轮",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "海皇东方航运",
-                    "description": "飞利浦半导体",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "三井信托",
-                            "description": "奥地利电讯",
-                            "size": 22
-                        },
-                        {
-                            "name": "味全食品工业",
-                            "description": "嘉盛半导体",
-                            "size": 21
-                        },
-                        {
-                            "name": "普利司通",
-                            "description": "南非金田",
-                            "size": 22
-                        },
-                        {
-                            "name": "裕元工业",
-                            "description": "富士胶片",
-                            "size": 29
-                        },
-                        {
-                            "name": "洲际酒店集团",
-                            "description": "贝塔斯曼",
-                            "size": 21
-                        },
-                        {
-                            "name": "家乐福",
-                            "description": "通用能源",
-                            "size": 30
-                        },
-                        {
-                            "name": "贝克休斯公司",
-                            "description": "伊藤洋华堂",
-                            "size": 21
-                        },
-                        {
-                            "name": "惠普",
-                            "description": "摩根大通",
-                            "size": 21
-                        },
-                        {
-                            "name": "芬欧汇川",
-                            "description": "上海宝钢集团",
-                            "size": 30
-                        },
-                        {
-                            "name": "韩华集团",
-                            "description": "美国艾利公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "托德船厂",
-                            "description": "铨宝光电",
-                            "size": 23
-                        },
-                        {
-                            "name": "艾睿电子",
-                            "description": "废物管理",
-                            "size": 28
-                        },
-                        {
-                            "name": "斯普林特",
-                            "description": "水星海事",
-                            "size": 28
-                        },
-                        {
-                            "name": "东京威力",
-                            "description": "太阳石油",
-                            "size": 23
-                        },
-                        {
-                            "name": "西德意志银行",
-                            "description": "英维思集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "春天集团",
-                            "description": "力丽企业",
-                            "size": 25
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "澳新银行",
-            "description": "三洋电机",
-            "size": 20,
-            "children": [
-                {
-                    "name": "凯迪迪爱",
-                    "description": "阿莫林公司",
-                    "size": 22,
-                    "children": [
-                        {
-                            "name": "洛克希德马丁",
-                            "description": "大东电报局",
-                            "size": 20
-                        },
-                        {
-                            "name": "夏奈尔",
-                            "description": "阿拉迪姆",
-                            "size": 25
-                        },
-                        {
-                            "name": "凯迪迪爱",
-                            "description": "米塔尔钢铁",
-                            "size": 25
-                        },
-                        {
-                            "name": "安达保险集团",
-                            "description": "莱顿控股",
-                            "size": 23
-                        },
-                        {
-                            "name": "卢克石油",
-                            "description": "烟草",
-                            "size": 21
-                        },
-                        {
-                            "name": "斯克里普斯",
-                            "description": "海外航运公司",
-                            "size": 23
-                        },
-                        {
-                            "name": "川崎重工",
-                            "description": "爱迪生",
-                            "size": 23
-                        },
-                        {
-                            "name": "信德集团",
-                            "description": "埃克森美孚",
-                            "size": 27
-                        },
-                        {
-                            "name": "通用汽车",
-                            "description": "戴纳基",
-                            "size": 28
-                        },
-                        {
-                            "name": "山道士",
-                            "description": "花王株式会社",
-                            "size": 23
-                        },
-                        {
-                            "name": "雅诗兰黛",
-                            "description": "家乐福",
-                            "size": 29
-                        },
-                        {
-                            "name": "中国联通",
-                            "description": "中银香港",
-                            "size": 30
-                        },
-                        {
-                            "name": "阿斯特拉",
-                            "description": "艾德卡",
-                            "size": 23
-                        },
-                        {
-                            "name": "理索纳银行",
-                            "description": "可信能源",
-                            "size": 28
-                        },
-                        {
-                            "name": "成功集团",
-                            "description": "裕隆汽车制造",
-                            "size": 21
-                        },
-                        {
-                            "name": "印尼电讯公司",
-                            "description": "松下电器",
-                            "size": 28
-                        },
-                        {
-                            "name": "索威公司",
-                            "description": "韩国航空",
-                            "size": 21
-                        },
-                        {
-                            "name": "宏基",
-                            "description": "鲜京",
-                            "size": 24
-                        }
-                    ]
-                },
-                {
-                    "name": "住友信托银行",
-                    "description": "普莱斯多姆",
-                    "size": 27,
-                    "children": [
-                        {
-                            "name": "佩希内",
-                            "description": "先灵葆雅",
-                            "size": 29
-                        },
-                        {
-                            "name": "喜力控股",
-                            "description": "安进",
-                            "size": 30
-                        },
-                        {
-                            "name": "卡蒂亚",
-                            "description": "意法半导体",
-                            "size": 27
-                        },
-                        {
-                            "name": "公众电力公司",
-                            "description": "南贝尔",
-                            "size": 21
-                        }
-                    ]
-                },
-                {
-                    "name": "弗莱森电讯",
-                    "description": "通用汽车",
-                    "size": 22,
-                    "children": [
-                        {
-                            "name": "莎莉",
-                            "description": "喜力控股",
-                            "size": 24
-                        },
-                        {
-                            "name": "美可保健",
-                            "description": "移动通信公司",
-                            "size": 20
-                        },
-                        {
-                            "name": "爱立信",
-                            "description": "马斯柯",
-                            "size": 23
-                        },
-                        {
-                            "name": "希尔顿集团",
-                            "description": "西斯尔",
-                            "size": 28
-                        },
-                        {
-                            "name": "宝成工业",
-                            "description": "直布罗陀保险",
-                            "size": 27
-                        },
-                        {
-                            "name": "江森自控",
-                            "description": "铼德科技",
-                            "size": 22
-                        },
-                        {
-                            "name": "史密斯集团",
-                            "description": "马自达汽车",
-                            "size": 29
-                        },
-                        {
-                            "name": "弗莱森电讯",
-                            "description": "百特国际",
-                            "size": 29
-                        },
-                        {
-                            "name": "农业信贷银行",
-                            "description": "星巴克公司",
-                            "size": 29
-                        },
-                        {
-                            "name": "远东纺织",
-                            "description": "恒隆地产",
-                            "size": 24
-                        },
-                        {
-                            "name": "普莱克斯公司",
-                            "description": "英格拉姆实业",
-                            "size": 22
-                        },
-                        {
-                            "name": "中国银行",
-                            "description": "通用海事",
-                            "size": 20
-                        },
-                        {
-                            "name": "鸿海精密工业",
-                            "description": "三星生命",
-                            "size": 27
-                        },
-                        {
-                            "name": "正大制药",
-                            "description": "论坛公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "亚洲航空公司",
-                            "description": "普莱斯多姆",
-                            "size": 27
-                        },
-                        {
-                            "name": "蒂森克虏伯",
-                            "description": "长江基建",
-                            "size": 26
-                        },
-                        {
-                            "name": "沃尔格林",
-                            "description": "施耐德公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "三菱重工",
-                            "description": "凯马特",
-                            "size": 22
-                        }
-                    ]
-                },
-                {
-                    "name": "萨瓦德尔银行",
-                    "description": "三星半导体",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "泰国京都水泥",
-                            "description": "西蒙地产",
-                            "size": 23
-                        },
-                        {
-                            "name": "永丰余造纸",
-                            "description": "斗山",
-                            "size": 21
-                        },
-                        {
-                            "name": "达能集团",
-                            "description": "威望迪环球",
-                            "size": 20
-                        },
-                        {
-                            "name": "国娃利亚公司",
-                            "description": "佳能",
-                            "size": 26
-                        },
-                        {
-                            "name": "邦奇",
-                            "description": "大华银行",
-                            "size": 20
-                        },
-                        {
-                            "name": "诺威治联合",
-                            "description": "日本邮船",
-                            "size": 23
-                        },
-                        {
-                            "name": "佳能",
-                            "description": "汉高",
-                            "size": 26
-                        },
-                        {
-                            "name": "西南航空公司",
-                            "description": "恒基兆业地产",
-                            "size": 24
-                        },
-                        {
-                            "name": "贝尔斯登公司",
-                            "description": "瑞穗金融集团",
-                            "size": 29
-                        },
-                        {
-                            "name": "康宁公司",
-                            "description": "孟山都公司",
-                            "size": 21
-                        }
-                    ]
-                },
-                {
-                    "name": "金宝电子工业",
-                    "description": "论坛公司",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "诺福克南方",
-                            "description": "斯堪尼亚公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "喜力",
-                            "description": "英业达",
-                            "size": 27
-                        },
-                        {
-                            "name": "强生",
-                            "description": "英可金属",
-                            "size": 28
-                        },
-                        {
-                            "name": "特许半导体",
-                            "description": "普洛斯",
-                            "size": 21
-                        },
-                        {
-                            "name": "印尼电信",
-                            "description": "嘉新食品化纤",
-                            "size": 24
-                        },
-                        {
-                            "name": "普拉达",
-                            "description": "耐克",
-                            "size": 21
-                        },
-                        {
-                            "name": "太阳微系统",
-                            "description": "清水建设",
-                            "size": 27
-                        },
-                        {
-                            "name": "佩希内",
-                            "description": "中华映管",
-                            "size": 26
-                        },
-                        {
-                            "name": "爱信精机",
-                            "description": "德国联邦铁路",
-                            "size": 23
-                        },
-                        {
-                            "name": "英格索兰",
-                            "description": "摩托罗拉",
-                            "size": 21
-                        },
-                        {
-                            "name": "罗氏药厂",
-                            "description": "凯德置地",
-                            "size": 26
-                        },
-                        {
-                            "name": "惠氏医药",
-                            "description": "瑞士信贷",
-                            "size": 22
-                        },
-                        {
-                            "name": "加拿大能源",
-                            "description": "圣波纳",
-                            "size": 29
-                        },
-                        {
-                            "name": "宏利保险",
-                            "description": "波兰商业银行",
-                            "size": 28
-                        }
-                    ]
-                },
-                {
-                    "name": "源讯",
-                    "description": "全国保险",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "第一劝业银行",
-                            "description": "加拿大能源",
-                            "size": 26
-                        },
-                        {
-                            "name": "达能集团",
-                            "description": "中信泰富",
-                            "size": 24
-                        },
-                        {
-                            "name": "希腊银行",
-                            "description": "埃克西尔能源",
-                            "size": 30
-                        },
-                        {
-                            "name": "斯道拉恩索",
-                            "description": "联合技术",
-                            "size": 27
-                        },
-                        {
-                            "name": "卓普斯公司",
-                            "description": "大和银行",
-                            "size": 20
-                        },
-                        {
-                            "name": "鹰君集团",
-                            "description": "优力勤",
-                            "size": 21
-                        },
-                        {
-                            "name": "英特布鲁",
-                            "description": "意大泰",
-                            "size": 23
-                        },
-                        {
-                            "name": "欧翁",
-                            "description": "明治安田生命",
-                            "size": 25
-                        },
-                        {
-                            "name": "法国国营铁路",
-                            "description": "顾曼",
-                            "size": 24
-                        },
-                        {
-                            "name": "克罗格",
-                            "description": "联合百货",
-                            "size": 25
-                        },
-                        {
-                            "name": "法国电信",
-                            "description": "雪印乳业",
-                            "size": 23
-                        },
-                        {
-                            "name": "华盛顿互助",
-                            "description": "阿尔斯通",
-                            "size": 20
-                        },
-                        {
-                            "name": "德累斯顿银行",
-                            "description": "兴业资本",
-                            "size": 21
-                        },
-                        {
-                            "name": "日本电气公司",
-                            "description": "诺基亚",
-                            "size": 25
-                        },
-                        {
-                            "name": "日本通运",
-                            "description": "正隆",
-                            "size": 22
-                        },
-                        {
-                            "name": "曼谷银行",
-                            "description": "台达化学工业",
-                            "size": 26
-                        }
-                    ]
-                },
-                {
-                    "name": "英保达",
-                    "description": "韩国燃气",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "斯道拉恩索",
-                            "description": "拜耳",
-                            "size": 24
-                        },
-                        {
-                            "name": "长荣海运公司",
-                            "description": "金巴斯集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "伊顿公司",
-                            "description": "三洋电机",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "中国石化",
-                    "description": "希腊银行",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "杜邦",
-                            "description": "古奇",
-                            "size": 21
-                        },
-                        {
-                            "name": "地铁公司",
-                            "description": "韩进重工",
-                            "size": 25
-                        },
-                        {
-                            "name": "山特维克",
-                            "description": "烟草",
-                            "size": 26
-                        },
-                        {
-                            "name": "金维克",
-                            "description": "欧尚",
-                            "size": 20
-                        },
-                        {
-                            "name": "标致",
-                            "description": "台湾玻璃工业",
-                            "size": 20
-                        },
-                        {
-                            "name": "三菱电机",
-                            "description": "丹斯克银行",
-                            "size": 21
-                        },
-                        {
-                            "name": "达乐公司",
-                            "description": "东京急行",
-                            "size": 26
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "王者银行",
-            "description": "公众贮藏公司",
-            "size": 24,
-            "children": [
-                {
-                    "name": "论坛公司",
-                    "description": "瑞德系统",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "日本邮政",
-                            "description": "莱顿控股",
-                            "size": 29
-                        },
-                        {
-                            "name": "普拉达",
-                            "description": "力拓矿业集团",
-                            "size": 30
-                        },
-                        {
-                            "name": "联合技术",
-                            "description": "丰田通商",
-                            "size": 22
-                        },
-                        {
-                            "name": "文华东方国际",
-                            "description": "清水建设",
-                            "size": 24
-                        },
-                        {
-                            "name": "迅销",
-                            "description": "丹纳赫集团",
-                            "size": 28
-                        },
-                        {
-                            "name": "美国北方银行",
-                            "description": "意法半导体",
-                            "size": 27
-                        },
-                        {
-                            "name": "州立农业保险",
-                            "description": "伊藤洋华堂",
-                            "size": 24
-                        },
-                        {
-                            "name": "德事隆公司",
-                            "description": "现代汽车",
-                            "size": 20
-                        },
-                        {
-                            "name": "洛斯",
-                            "description": "宝维士联盛",
-                            "size": 21
-                        },
-                        {
-                            "name": "泰勒斯",
-                            "description": "台湾茂矽电子",
-                            "size": 26
-                        },
-                        {
-                            "name": "康德摩根",
-                            "description": "夏菲诺曼",
-                            "size": 26
-                        },
-                        {
-                            "name": "麒麟麦酒",
-                            "description": "库华根公司",
-                            "size": 25
-                        },
-                        {
-                            "name": "北欧联合银行",
-                            "description": "伟创力",
-                            "size": 28
-                        },
-                        {
-                            "name": "家得宝",
-                            "description": "威娜",
-                            "size": 23
-                        },
-                        {
-                            "name": "加莱赫集团",
-                            "description": "弗雷特伍德",
-                            "size": 20
-                        },
-                        {
-                            "name": "西武铁道",
-                            "description": "联合百货",
-                            "size": 30
-                        },
-                        {
-                            "name": "佩特龙公司",
-                            "description": "美国西部",
-                            "size": 28
-                        },
-                        {
-                            "name": "大阪瓦斯",
-                            "description": "阿斯特拉国际",
-                            "size": 29
-                        },
-                        {
-                            "name": "全国保险",
-                            "description": "三井信托",
-                            "size": 20
-                        }
-                    ]
-                },
-                {
-                    "name": "南亚科技",
-                    "description": "乐金建筑",
-                    "size": 29,
-                    "children": [
-                        {
-                            "name": "信诺",
-                            "description": "华硕电脑",
-                            "size": 21
-                        },
-                        {
-                            "name": "新创建集团",
-                            "description": "里尔",
-                            "size": 25
-                        },
-                        {
-                            "name": "精蹀科技",
-                            "description": "现代综合商事",
-                            "size": 24
-                        },
-                        {
-                            "name": "德国邮政",
-                            "description": "美国普通保险",
-                            "size": 29
-                        },
-                        {
-                            "name": "霍德班克公司",
-                            "description": "联邦快递",
-                            "size": 26
-                        },
-                        {
-                            "name": "住友金属工业",
-                            "description": "康宝莱国际",
-                            "size": 24
-                        },
-                        {
-                            "name": "奥托集团",
-                            "description": "三星电子",
-                            "size": 22
-                        },
-                        {
-                            "name": "肯德基",
-                            "description": "贝尔斯登公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "美国标准公司",
-                            "description": "罗门哈斯",
-                            "size": 20
-                        },
-                        {
-                            "name": "太阳信用银行",
-                            "description": "城市发展",
-                            "size": 23
-                        },
-                        {
-                            "name": "辉瑞",
-                            "description": "葡萄牙电信",
-                            "size": 27
-                        },
-                        {
-                            "name": "北美日产",
-                            "description": "统一企业",
-                            "size": 23
-                        },
-                        {
-                            "name": "永旺",
-                            "description": "诺福克南方",
-                            "size": 20
-                        },
-                        {
-                            "name": "现代综合商事",
-                            "description": "康卡斯特",
-                            "size": 22
-                        },
-                        {
-                            "name": "弗雷德马克",
-                            "description": "远东纺织",
-                            "size": 21
-                        },
-                        {
-                            "name": "德意志银行",
-                            "description": "思科系统",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "挪威水电",
-                    "description": "奈特-里德",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "西田控股",
-                            "description": "马来西亚电讯",
-                            "size": 21
-                        },
-                        {
-                            "name": "桑托斯",
-                            "description": "金宝汤",
-                            "size": 28
-                        },
-                        {
-                            "name": "夏奈尔",
-                            "description": "北美松下公司",
-                            "size": 24
-                        },
-                        {
-                            "name": "快捷药方公司",
-                            "description": "威娜",
-                            "size": 26
-                        },
-                        {
-                            "name": "通用食品",
-                            "description": "东丽株式会社",
-                            "size": 23
-                        },
-                        {
-                            "name": "海皇东方航运",
-                            "description": "奥地利电讯",
-                            "size": 20
-                        }
-                    ]
-                },
-                {
-                    "name": "东绵",
-                    "description": "铼德科技",
-                    "size": 24,
-                    "children": [
-                        {
-                            "name": "百特国际",
-                            "description": "华盛顿互助",
-                            "size": 27
-                        },
-                        {
-                            "name": "迪克森集团",
-                            "description": "希腊银行",
-                            "size": 22
-                        },
-                        {
-                            "name": "帝国化学工业",
-                            "description": "印多福食品",
-                            "size": 29
-                        },
-                        {
-                            "name": "成功集团",
-                            "description": "洲际酒店集团",
-                            "size": 24
-                        },
-                        {
-                            "name": "辉瑞",
-                            "description": "印尼水泥集团",
-                            "size": 24
-                        }
-                    ]
-                },
-                {
-                    "name": "三菱电机",
-                    "description": "波兰电信",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "抗遗传公司",
-                            "description": "奇美电子",
-                            "size": 22
-                        },
-                        {
-                            "name": "国泰航空公司",
-                            "description": "鲜京",
-                            "size": 26
-                        },
-                        {
-                            "name": "雅马哈发动机",
-                            "description": "惠普",
-                            "size": 27
-                        },
-                        {
-                            "name": "霍尼韦尔国际",
-                            "description": "法国电力",
-                            "size": 20
-                        },
-                        {
-                            "name": "统一企业",
-                            "description": "道明银行",
-                            "size": 25
-                        },
-                        {
-                            "name": "嘉盛半导体",
-                            "description": "科莱恩",
-                            "size": 22
-                        },
-                        {
-                            "name": "瑞德系统",
-                            "description": "胜腾",
-                            "size": 27
-                        },
-                        {
-                            "name": "杨忠礼机构",
-                            "description": "东元电机",
-                            "size": 26
-                        },
-                        {
-                            "name": "金像电子",
-                            "description": "仁川炼油公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "索威公司",
-                            "description": "康宝莱国际",
-                            "size": 25
-                        },
-                        {
-                            "name": "东展兴业",
-                            "description": "圣波纳",
-                            "size": 25
-                        },
-                        {
-                            "name": "电通广告",
-                            "description": "阿克苏诺贝尔",
-                            "size": 25
-                        },
-                        {
-                            "name": "瓦里安",
-                            "description": "西夫韦",
-                            "size": 27
-                        },
-                        {
-                            "name": "论坛公司",
-                            "description": "半岛东方航运",
-                            "size": 28
-                        },
-                        {
-                            "name": "甲骨文",
-                            "description": "基因酶",
-                            "size": 30
-                        },
-                        {
-                            "name": "麻省人寿",
-                            "description": "住友电工",
-                            "size": 27
-                        },
-                        {
-                            "name": "史密斯集团",
-                            "description": "邦奇",
-                            "size": 20
-                        },
-                        {
-                            "name": "基尔比公司",
-                            "description": "彭尼",
-                            "size": 20
-                        },
-                        {
-                            "name": "诺福克南方",
-                            "description": "华通电脑",
-                            "size": 24
-                        }
-                    ]
-                },
-                {
-                    "name": "阿迪达斯",
-                    "description": "台塑石化",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "川铁商事",
-                            "description": "泰国京都水泥",
-                            "size": 28
-                        },
-                        {
-                            "name": "冠东",
-                            "description": "挪威水电",
-                            "size": 30
-                        },
-                        {
-                            "name": "铨宝光电",
-                            "description": "摩托罗拉",
-                            "size": 29
-                        },
-                        {
-                            "name": "现代综合商事",
-                            "description": "雅培",
-                            "size": 24
-                        },
-                        {
-                            "name": "雅芳产品",
-                            "description": "达科亚洲",
-                            "size": 22
-                        },
-                        {
-                            "name": "和记电讯",
-                            "description": "富邦金控",
-                            "size": 28
-                        },
-                        {
-                            "name": "泰科国际",
-                            "description": "大东电报局",
-                            "size": 23
-                        },
-                        {
-                            "name": "景顺集团",
-                            "description": "株式会社三国",
-                            "size": 30
-                        },
-                        {
-                            "name": "大宇",
-                            "description": "西德意志银行",
-                            "size": 22
-                        },
-                        {
-                            "name": "声宝",
-                            "description": "新加坡航空",
-                            "size": 23
-                        },
-                        {
-                            "name": "地产集团",
-                            "description": "基尔比公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "胜腾",
-                            "description": "友达光电",
-                            "size": 21
-                        },
-                        {
-                            "name": "北欧联合银行",
-                            "description": "公众电力公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "英美烟草",
-                            "description": "麦克森",
-                            "size": 26
-                        },
-                        {
-                            "name": "史密斯集团",
-                            "description": "宜家",
-                            "size": 24
-                        },
-                        {
-                            "name": "凸版印刷",
-                            "description": "淡水河谷公司",
-                            "size": 20
-                        },
-                        {
-                            "name": "马来西亚电讯",
-                            "description": "华邦电子",
-                            "size": 21
-                        },
-                        {
-                            "name": "欧特克",
-                            "description": "三星生命",
-                            "size": 22
-                        },
-                        {
-                            "name": "国民银行",
-                            "description": "沃特迪斯尼",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "景顺集团",
-                    "description": "家庭美元百货",
-                    "size": 20,
-                    "children": [
-                        {
-                            "name": "阿斯特拉国际",
-                            "description": "大陆",
-                            "size": 30
-                        },
-                        {
-                            "name": "阿莫林公司",
-                            "description": "普拉达",
-                            "size": 26
-                        },
-                        {
-                            "name": "德国邮政",
-                            "description": "乐天公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "安然",
-                            "description": "国营石化公司",
-                            "size": 23
-                        },
-                        {
-                            "name": "柯尔",
-                            "description": "兴业资本",
-                            "size": 24
-                        },
-                        {
-                            "name": "普洛斯",
-                            "description": "梅溪木材",
-                            "size": 23
-                        },
-                        {
-                            "name": "蒙特利尔银行",
-                            "description": "日东电工",
-                            "size": 28
-                        },
-                        {
-                            "name": "康尼赞科技",
-                            "description": "西格拉姆",
-                            "size": 29
-                        },
-                        {
-                            "name": "美国艾利公司",
-                            "description": "联合百货",
-                            "size": 24
-                        },
-                        {
-                            "name": "味全食品工业",
-                            "description": "苏格兰电力",
-                            "size": 21
-                        },
-                        {
-                            "name": "哈利-戴维森",
-                            "description": "凸版印刷",
-                            "size": 30
-                        },
-                        {
-                            "name": "烟草",
-                            "description": "戴恩金属公司",
-                            "size": 23
-                        },
-                        {
-                            "name": "大众汽车",
-                            "description": "上海汽车",
-                            "size": 26
-                        },
-                        {
-                            "name": "帝国石油",
-                            "description": "华硕电脑",
-                            "size": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "希腊银行",
-                    "description": "沃特斯公司",
-                    "size": 27,
-                    "children": [
-                        {
-                            "name": "梅溪木材",
-                            "description": "大荣",
-                            "size": 21
-                        },
-                        {
-                            "name": "云顶",
-                            "description": "太阳微系统",
-                            "size": 24
-                        },
-                        {
-                            "name": "北美三菱汽车",
-                            "description": "美国电讯",
-                            "size": 23
-                        },
-                        {
-                            "name": "标准银行",
-                            "description": "通用电气",
-                            "size": 24
-                        },
-                        {
-                            "name": "华硕电脑",
-                            "description": "樱花银行",
-                            "size": 20
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "前进保险",
-            "description": "三和银行",
-            "size": 21,
-            "children": [
-                {
-                    "name": "斯特普尔斯",
-                    "description": "卡莱尔集团",
-                    "size": 27,
-                    "children": [
-                        {
-                            "name": "丰业银行",
-                            "description": "静冈银行",
-                            "size": 25
-                        },
-                        {
-                            "name": "星巴克公司",
-                            "description": "德事隆公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "联合包裹服务",
-                            "description": "乔治威斯顿",
-                            "size": 28
-                        },
-                        {
-                            "name": "圣戈班",
-                            "description": "松下电器",
-                            "size": 30
-                        },
-                        {
-                            "name": "康菲",
-                            "description": "山道士",
-                            "size": 27
-                        },
-                        {
-                            "name": "安壮奇",
-                            "description": "宜家",
-                            "size": 29
-                        },
-                        {
-                            "name": "三菱汽车",
-                            "description": "农场食品",
-                            "size": 27
-                        },
-                        {
-                            "name": "英特尔",
-                            "description": "马里兹公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "艾默生电气",
-                            "description": "凯业集团",
-                            "size": 25
-                        }
-                    ]
-                },
-                {
-                    "name": "日本钢管",
-                    "description": "伊藤洋华堂",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "力拓矿业集团",
-                            "description": "雷诺",
-                            "size": 28
-                        },
-                        {
-                            "name": "伊藤忠",
-                            "description": "麦肯锡",
-                            "size": 25
-                        },
-                        {
-                            "name": "东芝",
-                            "description": "康普",
-                            "size": 23
-                        },
-                        {
-                            "name": "嘉新食品化纤",
-                            "description": "巴西银行",
-                            "size": 30
-                        },
-                        {
-                            "name": "联合利华",
-                            "description": "中国电信",
-                            "size": 20
-                        },
-                        {
-                            "name": "太阳石油",
-                            "description": "纽约社区银行",
-                            "size": 29
-                        },
-                        {
-                            "name": "培瑞克",
-                            "description": "川崎重工",
-                            "size": 20
-                        },
-                        {
-                            "name": "日本能源",
-                            "description": "威利斯集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "辛辛那提能源",
-                            "description": "大林组",
-                            "size": 26
-                        },
-                        {
-                            "name": "索斯考普",
-                            "description": "爱信精机",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "林肯国民集团",
-                    "description": "莎莉",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "雅虎日本",
-                            "description": "米其林",
-                            "size": 27
-                        },
-                        {
-                            "name": "吉宝置业",
-                            "description": "中国农业银行",
-                            "size": 27
-                        },
-                        {
-                            "name": "大陆航空公司",
-                            "description": "德累斯顿银行",
-                            "size": 23
-                        },
-                        {
-                            "name": "霍尼韦尔国际",
-                            "description": "孟山都公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "南亚科技",
-                            "description": "拜维尔公司",
-                            "size": 24
-                        },
-                        {
-                            "name": "高乐氏",
-                            "description": "安宝",
-                            "size": 22
-                        },
-                        {
-                            "name": "东讯",
-                            "description": "韩国电力",
-                            "size": 20
-                        },
-                        {
-                            "name": "保诚",
-                            "description": "联合利华",
-                            "size": 27
-                        },
-                        {
-                            "name": "力丽企业",
-                            "description": "横滨银行",
-                            "size": 22
-                        },
-                        {
-                            "name": "索尼",
-                            "description": "智邦科技",
-                            "size": 25
-                        },
-                        {
-                            "name": "太古公司",
-                            "description": "德州公用",
-                            "size": 24
-                        },
-                        {
-                            "name": "嘉里建设",
-                            "description": "强生",
-                            "size": 27
-                        },
-                        {
-                            "name": "澳新银行",
-                            "description": "汉莎集团",
-                            "size": 22
-                        },
-                        {
-                            "name": "力拓矿业集团",
-                            "description": "恒生银行",
-                            "size": 20
-                        },
-                        {
-                            "name": "景顺集团",
-                            "description": "卡特彼勒",
-                            "size": 27
-                        },
-                        {
-                            "name": "瑞穗金融集团",
-                            "description": "宝维士联盛",
-                            "size": 23
-                        },
-                        {
-                            "name": "南方",
-                            "description": "致伸科技",
-                            "size": 26
-                        },
-                        {
-                            "name": "安壮奇",
-                            "description": "诺文公司",
-                            "size": 29
-                        }
-                    ]
-                },
-                {
-                    "name": "南方银行",
-                    "description": "英特尔",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "金维克",
-                            "description": "国泰金控",
-                            "size": 21
-                        },
-                        {
-                            "name": "南非英美铂业",
-                            "description": "马尼拉电力",
-                            "size": 24
-                        },
-                        {
-                            "name": "三井不动产",
-                            "description": "花旗集团",
-                            "size": 25
-                        },
-                        {
-                            "name": "壳牌加拿大",
-                            "description": "伊陶萨",
-                            "size": 23
-                        },
-                        {
-                            "name": "塞莱拉公司",
-                            "description": "庞巴迪",
-                            "size": 29
-                        },
-                        {
-                            "name": "大林工程公司",
-                            "description": "君王制药",
-                            "size": 25
-                        },
-                        {
-                            "name": "马来西亚电讯",
-                            "description": "双日公司",
-                            "size": 30
-                        },
-                        {
-                            "name": "泰国军人银行",
-                            "description": "惠氏",
-                            "size": 24
-                        },
-                        {
-                            "name": "味全食品工业",
-                            "description": "库华根公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "宝成工业",
-                            "description": "苏帕厅森药厂",
-                            "size": 22
-                        },
-                        {
-                            "name": "阿纳达科公司",
-                            "description": "韩华集团",
-                            "size": 30
-                        },
-                        {
-                            "name": "丰隆集团",
-                            "description": "杜邦",
-                            "size": 29
-                        },
-                        {
-                            "name": "联合包裹服务",
-                            "description": "喜力控股",
-                            "size": 27
-                        },
-                        {
-                            "name": "甘保险集团",
-                            "description": "丹斯克银行",
-                            "size": 21
-                        },
-                        {
-                            "name": "百事",
-                            "description": "戴尔",
-                            "size": 27
-                        },
-                        {
-                            "name": "伊陶萨",
-                            "description": "德尔福",
-                            "size": 26
-                        },
-                        {
-                            "name": "丽台科技",
-                            "description": "合顺集团",
-                            "size": 21
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "嘉信理财集团",
-            "description": "花王株式会社",
-            "size": 25,
-            "children": [
-                {
-                    "name": "南方",
-                    "description": "阿普雷拉公司",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "温尼巴格",
-                            "description": "梅溪木材",
-                            "size": 26
-                        },
-                        {
-                            "name": "智邦科技",
-                            "description": "卡莱尔集团",
-                            "size": 25
-                        },
-                        {
-                            "name": "目标遗传公司",
-                            "description": "源讯",
-                            "size": 30
-                        },
-                        {
-                            "name": "金霸王",
-                            "description": "百事装瓶集团",
-                            "size": 28
-                        },
-                        {
-                            "name": "利丰有限公司",
-                            "description": "富邦金控",
-                            "size": 27
-                        },
-                        {
-                            "name": "横滨银行",
-                            "description": "家乐福",
-                            "size": 29
-                        },
-                        {
-                            "name": "泰勒斯",
-                            "description": "声宝",
-                            "size": 26
-                        },
-                        {
-                            "name": "力拓矿业",
-                            "description": "康尼格拉",
-                            "size": 29
-                        },
-                        {
-                            "name": "罗门哈斯",
-                            "description": "能源国际",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "索迪斯联合",
-                    "description": "苏黎世金融",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "路易威登",
-                            "description": "培瑞克",
-                            "size": 24
-                        },
-                        {
-                            "name": "特易购",
-                            "description": "安盛",
-                            "size": 23
-                        },
-                        {
-                            "name": "台湾玻璃工业",
-                            "description": "阿迪达斯",
-                            "size": 25
-                        },
-                        {
-                            "name": "鲜京电信",
-                            "description": "康明斯",
-                            "size": 24
-                        },
-                        {
-                            "name": "培瑞克",
-                            "description": "梅恩集团",
-                            "size": 26
-                        },
-                        {
-                            "name": "新加坡电信",
-                            "description": "澳洲银行",
-                            "size": 29
-                        },
-                        {
-                            "name": "英可金属",
-                            "description": "能源国际",
-                            "size": 23
-                        },
-                        {
-                            "name": "普莱斯多姆",
-                            "description": "莱顿控股",
-                            "size": 24
-                        }
-                    ]
-                },
-                {
-                    "name": "尤克斯",
-                    "description": "泰德瓦特",
-                    "size": 27,
-                    "children": [
-                        {
-                            "name": "诺福克南方",
-                            "description": "康卡斯特",
-                            "size": 26
-                        },
-                        {
-                            "name": "丽星游轮",
-                            "description": "三菱材料",
-                            "size": 20
-                        },
-                        {
-                            "name": "甘保险集团",
-                            "description": "亿旺资讯服务",
-                            "size": 23
-                        }
-                    ]
-                },
-                {
-                    "name": "云顶",
-                    "description": "优力勤",
-                    "size": 23,
-                    "children": [
-                        {
-                            "name": "五十铃汽车",
-                            "description": "泰国京都水泥",
-                            "size": 26
-                        },
-                        {
-                            "name": "友达光电",
-                            "description": "力丽企业",
-                            "size": 29
-                        },
-                        {
-                            "name": "玛格纳",
-                            "description": "富俊",
-                            "size": 28
-                        },
-                        {
-                            "name": "家庭美元百货",
-                            "description": "原始能源",
-                            "size": 26
-                        },
-                        {
-                            "name": "伊陶萨",
-                            "description": "杜克能源",
-                            "size": 25
-                        },
-                        {
-                            "name": "丰泰企业",
-                            "description": "贝尔斯登公司",
-                            "size": 25
-                        },
-                        {
-                            "name": "金霸王",
-                            "description": "嘉新食品化纤",
-                            "size": 21
-                        },
-                        {
-                            "name": "武富士",
-                            "description": "北美三菱汽车",
-                            "size": 30
-                        },
-                        {
-                            "name": "梅溪木材",
-                            "description": "喜力",
-                            "size": 24
-                        },
-                        {
-                            "name": "罗氏",
-                            "description": "喜力控股",
-                            "size": 30
-                        },
-                        {
-                            "name": "道达尔",
-                            "description": "精工爱普生",
-                            "size": 20
-                        },
-                        {
-                            "name": "亚马逊",
-                            "description": "杜邦",
-                            "size": 24
-                        },
-                        {
-                            "name": "中国联通",
-                            "description": "联合利华",
-                            "size": 28
-                        }
-                    ]
-                },
-                {
-                    "name": "冠捷科技",
-                    "description": "凌特公司",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "中国工商银行",
-                            "description": "欧洲抵押银行",
-                            "size": 27
-                        },
-                        {
-                            "name": "葛兰素史克",
-                            "description": "技术数据",
-                            "size": 20
-                        },
-                        {
-                            "name": "诺华",
-                            "description": "爱信精机",
-                            "size": 29
-                        },
-                        {
-                            "name": "意大利电信",
-                            "description": "诺曼第",
-                            "size": 22
-                        }
-                    ]
-                },
-                {
-                    "name": "霍德班克公司",
-                    "description": "丰田汽车",
-                    "size": 26,
-                    "children": [
-                        {
-                            "name": "阿拉美达赫斯",
-                            "description": "西部无线公司",
-                            "size": 27
-                        },
-                        {
-                            "name": "巴帝电信",
-                            "description": "成功集团",
-                            "size": 28
-                        },
-                        {
-                            "name": "科凯国际集团",
-                            "description": "三菱重工",
-                            "size": 29
-                        },
-                        {
-                            "name": "皇家太阳保险",
-                            "description": "戴纳基",
-                            "size": 25
-                        },
-                        {
-                            "name": "西武铁道",
-                            "description": "汇丰金融",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "克罗格",
-                    "description": "长荣海运公司",
-                    "size": 28,
-                    "children": [
-                        {
-                            "name": "可口可乐企业",
-                            "description": "嘉禾花麻集团",
-                            "size": 24
-                        },
-                        {
-                            "name": "云顶",
-                            "description": "诊断试剂公司",
-                            "size": 22
-                        },
-                        {
-                            "name": "安费诺",
-                            "description": "合勤科技",
-                            "size": 30
-                        },
-                        {
-                            "name": "半岛东方航运",
-                            "description": "汇丰金融",
-                            "size": 29
-                        },
-                        {
-                            "name": "汤姆逊",
-                            "description": "纬创资通",
-                            "size": 20
-                        },
-                        {
-                            "name": "浦项制铁",
-                            "description": "中化集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "罗尔斯罗依斯",
-                            "description": "泰勒斯",
-                            "size": 20
-                        },
-                        {
-                            "name": "朗讯科技",
-                            "description": "武富士",
-                            "size": 26
-                        },
-                        {
-                            "name": "全美汽车租赁",
-                            "description": "伊陶萨",
-                            "size": 26
-                        },
-                        {
-                            "name": "佳能",
-                            "description": "霍尼韦尔国际",
-                            "size": 25
-                        },
-                        {
-                            "name": "伊兰",
-                            "description": "伊藤忠",
-                            "size": 23
-                        },
-                        {
-                            "name": "智邦科技",
-                            "description": "迈朗",
-                            "size": 28
-                        },
-                        {
-                            "name": "新加坡交易所",
-                            "description": "香格里拉",
-                            "size": 25
-                        },
-                        {
-                            "name": "丹怀酒厂",
-                            "description": "凯业集团",
-                            "size": 20
-                        },
-                        {
-                            "name": "先灵葆雅",
-                            "description": "百事装瓶集团",
-                            "size": 27
-                        },
-                        {
-                            "name": "春天集团",
-                            "description": "喜力",
-                            "size": 24
-                        },
-                        {
-                            "name": "哈利伯顿",
-                            "description": "三星重工",
-                            "size": 22
-                        },
-                        {
-                            "name": "桑坦德银行",
-                            "description": "兼松",
-                            "size": 26
-                        },
-                        {
-                            "name": "伊藤洋华堂",
-                            "description": "新加坡电信",
-                            "size": 29
-                        }
-                    ]
-                },
-                {
-                    "name": "东元电机",
-                    "description": "住友商事",
-                    "size": 22,
-                    "children": [
-                        {
-                            "name": "德尔福",
-                            "description": "日本通运",
-                            "size": 30
-                        },
-                        {
-                            "name": "马里兹公司",
-                            "description": "瑞士人寿",
-                            "size": 20
-                        },
-                        {
-                            "name": "现代综合商事",
-                            "description": "德纳公司",
-                            "size": 28
-                        },
-                        {
-                            "name": "瑞德系统",
-                            "description": "长江基建",
-                            "size": 27
-                        },
-                        {
-                            "name": "本田汽车",
-                            "description": "索迪斯联合",
-                            "size": 21
-                        },
-                        {
-                            "name": "优力勤",
-                            "description": "新日矿",
-                            "size": 22
-                        },
-                        {
-                            "name": "出光兴产",
-                            "description": "兆丰金融控股",
-                            "size": 26
-                        },
-                        {
-                            "name": "花旗集团",
-                            "description": "电动船舶公司",
-                            "size": 25
-                        },
-                        {
-                            "name": "中国一汽集团",
-                            "description": "福陆",
-                            "size": 25
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "铃木汽车",
-            "description": "福陆",
-            "size": 20,
-            "children": [
-                {
-                    "name": "联咏科技",
-                    "description": "中银香港",
-                    "size": 21,
-                    "children": [
-                        {
-                            "name": "富士胶片",
-                            "description": "宏基",
-                            "size": 25
-                        },
-                        {
-                            "name": "汇丰金融",
-                            "description": "安达保险集团",
-                            "size": 24
-                        },
-                        {
-                            "name": "联合航空",
-                            "description": "泰国军人银行",
-                            "size": 27
-                        }
-                    ]
-                },
-                {
-                    "name": "台达化学工业",
-                    "description": "丽台科技",
-                    "size": 29,
-                    "children": [
-                        {
-                            "name": "住友生命",
-                            "description": "三星重工",
-                            "size": 28
-                        },
-                        {
-                            "name": "百时美施贵宝",
-                            "description": "伊陶萨",
-                            "size": 25
-                        },
-                        {
-                            "name": "汇丰金融",
-                            "description": "国浩集团",
-                            "size": 26
-                        },
-                        {
-                            "name": "国营石化公司",
-                            "description": "奎斯特通讯",
-                            "size": 29
-                        },
-                        {
-                            "name": "斯伦贝谢",
-                            "description": "长江基建",
-                            "size": 23
-                        },
-                        {
-                            "name": "大林工程公司",
-                            "description": "歌林",
-                            "size": 20
-                        },
-                        {
-                            "name": "豪赫蒂夫",
-                            "description": "高盛集团",
-                            "size": 27
+                            "description": "康德摩根"
                         },
                         {
                             "name": "戴恩金属公司",
-                            "description": "爱迪生",
-                            "size": 21
+                            "description": "汉莎集团"
                         },
                         {
-                            "name": "中银香港",
-                            "description": "恒生银行",
-                            "size": 27
+                            "name": "纳伯斯工业",
+                            "description": "苹果电脑"
                         },
                         {
-                            "name": "森那美集团",
-                            "description": "微波通信",
-                            "size": 26
+                            "name": "近畿日本铁路",
+                            "description": "千禧制药"
                         },
                         {
-                            "name": "东丽株式会社",
-                            "description": "大宇",
-                            "size": 25
+                            "name": "奇美电子",
+                            "description": "麦格里银行"
                         },
                         {
-                            "name": "捷蓝航空公司",
-                            "description": "三星半导体",
-                            "size": 26
-                        },
-                        {
-                            "name": "德国邮政",
-                            "description": "伊陶萨",
-                            "size": 23
-                        },
-                        {
-                            "name": "德尔福",
-                            "description": "恒隆地产",
-                            "size": 21
-                        },
-                        {
-                            "name": "底特律能源",
-                            "description": "美国邮政",
-                            "size": 23
-                        },
-                        {
-                            "name": "云顶",
-                            "description": "北方信托",
-                            "size": 24
-                        },
-                        {
-                            "name": "三井信托",
-                            "description": "忠利保险",
-                            "size": 25
-                        },
-                        {
-                            "name": "华润创业",
-                            "description": "温迪克斯",
-                            "size": 23
+                            "name": "大成建设",
+                            "description": "印尼国家银行"
                         }
                     ]
                 },
                 {
-                    "name": "阿拉迪姆",
-                    "description": "欧力士",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "中华电信",
-                            "description": "合生创展",
-                            "size": 22
-                        },
-                        {
-                            "name": "太阳石油",
-                            "description": "小松",
-                            "size": 24
-                        },
-                        {
-                            "name": "奎斯特诊断",
-                            "description": "卡蒂亚",
-                            "size": 21
-                        },
-                        {
-                            "name": "瑞士电信",
-                            "description": "阿斯特拉国际",
-                            "size": 25
-                        },
-                        {
-                            "name": "苏黎世金融",
-                            "description": "东芝半导体",
-                            "size": 21
-                        },
-                        {
-                            "name": "法国电信",
-                            "description": "亚洲航空公司",
-                            "size": 29
-                        },
-                        {
-                            "name": "中银香港",
-                            "description": "德国电信",
-                            "size": 27
-                        },
-                        {
-                            "name": "索尼",
-                            "description": "伟世通",
-                            "size": 21
-                        },
-                        {
-                            "name": "正大制药",
-                            "description": "全美汽车租赁",
-                            "size": 24
-                        },
-                        {
-                            "name": "新加坡航空",
-                            "description": "马来西亚电讯",
-                            "size": 24
-                        },
-                        {
-                            "name": "凯迪迪爱",
-                            "description": "森科能源",
-                            "size": 20
-                        },
-                        {
-                            "name": "荷兰国际集团",
-                            "description": "诺曼第",
-                            "size": 28
-                        },
-                        {
-                            "name": "诺和诺德",
-                            "description": "雅虎日本",
-                            "size": 25
-                        },
-                        {
-                            "name": "西南航空公司",
-                            "description": "西北相互",
-                            "size": 28
-                        },
-                        {
-                            "name": "科美利加",
-                            "description": "凌特公司",
-                            "size": 26
-                        },
-                        {
-                            "name": "住友电工",
-                            "description": "汉高",
-                            "size": 29
-                        }
-                    ]
+                    "name": "近畿日本铁路",
+                    "description": "肯德基",
+                    "children": []
                 },
                 {
-                    "name": "西澳银行",
-                    "description": "夏菲诺曼",
-                    "size": 30,
-                    "children": [
-                        {
-                            "name": "合和实业",
-                            "description": "华盛顿邮报",
-                            "size": 30
-                        },
-                        {
-                            "name": "泰德瓦特",
-                            "description": "国泰航空公司",
-                            "size": 21
-                        },
-                        {
-                            "name": "凯乐格",
-                            "description": "瑞穗金融集团",
-                            "size": 26
-                        },
-                        {
-                            "name": "贝尔斯登公司",
-                            "description": "耐克",
-                            "size": 21
-                        },
-                        {
-                            "name": "电装",
-                            "description": "森科能源",
-                            "size": 29
-                        },
-                        {
-                            "name": "威立雅",
-                            "description": "西夫韦",
-                            "size": 27
-                        },
-                        {
-                            "name": "玛氏",
-                            "description": "伊藤洋华堂",
-                            "size": 29
-                        },
-                        {
-                            "name": "住友商事",
-                            "description": "莱顿控股",
-                            "size": 26
-                        },
-                        {
-                            "name": "通用电气",
-                            "description": "迅销",
-                            "size": 21
-                        },
-                        {
-                            "name": "拉卡德尔",
-                            "description": "东京瓦斯",
-                            "size": 29
-                        },
-                        {
-                            "name": "诊断试剂公司",
-                            "description": "力拓矿业",
-                            "size": 26
-                        },
-                        {
-                            "name": "斗山",
-                            "description": "新日铁",
-                            "size": 26
-                        },
-                        {
-                            "name": "微波通信",
-                            "description": "日本烟草",
-                            "size": 29
-                        },
-                        {
-                            "name": "哈利伯顿",
-                            "description": "智邦科技",
-                            "size": 27
-                        },
-                        {
-                            "name": "联合利华",
-                            "description": "圣乔治银行",
-                            "size": 24
-                        },
-                        {
-                            "name": "巴帝电信",
-                            "description": "巴斯夫",
-                            "size": 20
-                        },
-                        {
-                            "name": "美国标准公司",
-                            "description": "博思格集团",
-                            "size": 29
-                        },
-                        {
-                            "name": "荷兰国际集团",
-                            "description": "标致",
-                            "size": 25
-                        },
-                        {
-                            "name": "半岛东方航运",
-                            "description": "特许半导体",
-                            "size": 29
-                        },
-                        {
-                            "name": "巴斯夫",
-                            "description": "安泰",
-                            "size": 22
-                        }
-                    ]
+                    "name": "哈利-戴维森",
+                    "description": "西班牙天然气",
+                    "children": []
                 },
                 {
-                    "name": "台湾水泥",
-                    "description": "美光科技",
-                    "size": 30,
+                    "name": "陆技电脑",
+                    "description": "瑞穗金融集团",
                     "children": [
                         {
-                            "name": "百事装瓶集团",
-                            "description": "瑞穗信托银行",
-                            "size": 29
+                            "name": "大林工程公司",
+                            "description": "洛斯"
                         },
                         {
-                            "name": "太古公司",
-                            "description": "奥克美思公司",
-                            "size": 25
+                            "name": "嘉新食品化纤",
+                            "description": "华通电脑"
                         },
                         {
-                            "name": "西部无线公司",
-                            "description": "韩国电力",
-                            "size": 27
+                            "name": "迪克森集团",
+                            "description": "阿纳达科公司"
                         },
                         {
-                            "name": "废物管理",
-                            "description": "麦德龙",
-                            "size": 29
+                            "name": "精工爱普生",
+                            "description": "西班牙天然气"
                         },
-                        {
-                            "name": "三井住友保险",
-                            "description": "日本生命",
-                            "size": 28
-                        },
-                        {
-                            "name": "嘉盛半导体",
-                            "description": "富通",
-                            "size": 25
-                        },
-                        {
-                            "name": "马里兹公司",
-                            "description": "广达电脑",
-                            "size": 26
-                        },
-                        {
-                            "name": "福懋兴业",
-                            "description": "澳洲地产集团",
-                            "size": 23
-                        },
-                        {
-                            "name": "金巴斯集团",
-                            "description": "康列得",
-                            "size": 27
-                        },
-                        {
-                            "name": "国产实业建设",
-                            "description": "瑞来斯实业",
-                            "size": 25
-                        },
-                        {
-                            "name": "劳氏",
-                            "description": "东方乐园",
-                            "size": 25
-                        },
-                        {
-                            "name": "家庭美元百货",
-                            "description": "技术数据",
-                            "size": 22
-                        },
-                        {
-                            "name": "新加坡航空",
-                            "description": "朝日啤酒",
-                            "size": 28
-                        },
-                        {
-                            "name": "住友生命",
-                            "description": "吉宝企业",
-                            "size": 25
-                        },
-                        {
-                            "name": "康卡斯特",
-                            "description": "微软",
-                            "size": 25
-                        },
-                        {
-                            "name": "新日本石油",
-                            "description": "霍德班克公司",
-                            "size": 29
-                        },
-                        {
-                            "name": "道明银行",
-                            "description": "乔治·阿玛尼",
-                            "size": 27
-                        },
-                        {
-                            "name": "桑达克斯",
-                            "description": "山特维克",
-                            "size": 28
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "三井住友保险",
-            "description": "雷普索尔",
-            "size": 27,
-            "children": [
-                {
-                    "name": "英国航空",
-                    "description": "伟康",
-                    "size": 29,
-                    "children": [
-                        {
-                            "name": "查蒂姆",
-                            "description": "联合百货",
-                            "size": 23
-                        },
-                        {
-                            "name": "北电网络",
-                            "description": "保时捷",
-                            "size": 26
-                        },
-                        {
-                            "name": "新创建集团",
-                            "description": "韩国航空",
-                            "size": 30
-                        },
-                        {
-                            "name": "烟草",
-                            "description": "通用电话电子",
-                            "size": 20
-                        },
-                        {
-                            "name": "大陆",
-                            "description": "玛格纳",
-                            "size": 22
-                        },
-                        {
-                            "name": "康尼赞科技",
-                            "description": "伊维尔德罗拉",
-                            "size": 30
-                        },
-                        {
-                            "name": "沃尔格林",
-                            "description": "花王株式会社",
-                            "size": 29
-                        },
-                        {
-                            "name": "斯廷思集团",
-                            "description": "住友信托银行",
-                            "size": 25
-                        },
-                        {
-                            "name": "全国保险",
-                            "description": "大众电脑",
-                            "size": 25
-                        }
-                    ]
-                },
-                {
-                    "name": "耆卫公司",
-                    "description": "达能集团",
-                    "size": 25,
-                    "children": [
                         {
                             "name": "新加坡电信",
-                            "description": "喜力",
-                            "size": 26
+                            "description": "阿迪达斯"
                         },
                         {
-                            "name": "旭电",
-                            "description": "梅溪木材",
-                            "size": 26
-                        },
-                        {
-                            "name": "福懋兴业",
-                            "description": "三洋电机",
-                            "size": 22
-                        },
-                        {
-                            "name": "南方",
-                            "description": "万能企业",
-                            "size": 29
-                        },
-                        {
-                            "name": "堤客海运公司",
-                            "description": "时代华纳",
-                            "size": 25
-                        },
-                        {
-                            "name": "堤客海运公司",
-                            "description": "玛京多",
-                            "size": 24
-                        },
-                        {
-                            "name": "爱立信",
-                            "description": "路易威登",
-                            "size": 25
-                        },
-                        {
-                            "name": "雷普索尔",
-                            "description": "百事",
-                            "size": 23
-                        },
-                        {
-                            "name": "索斯考普",
-                            "description": "阿第克",
-                            "size": 29
-                        },
-                        {
-                            "name": "斯特普尔斯",
-                            "description": "台达电子",
-                            "size": 20
-                        },
-                        {
-                            "name": "蒂森克虏伯",
-                            "description": "现代综合商事",
-                            "size": 21
-                        },
-                        {
-                            "name": "巴尔制药",
-                            "description": "美集物流运输",
-                            "size": 24
-                        },
-                        {
-                            "name": "耆卫公司",
-                            "description": "伟世通",
-                            "size": 26
-                        },
-                        {
-                            "name": "康柏电脑",
-                            "description": "大众汽车",
-                            "size": 30
-                        },
-                        {
-                            "name": "康卡斯特",
-                            "description": "杜邦",
-                            "size": 25
-                        }
-                    ]
-                },
-                {
-                    "name": "西蒙地产",
-                    "description": "鲜京电信",
-                    "size": 25,
-                    "children": [
-                        {
-                            "name": "沃尔沃",
-                            "description": "森那美集团",
-                            "size": 29
-                        },
-                        {
-                            "name": "武富士",
-                            "description": "罗尔斯罗依斯",
-                            "size": 20
-                        },
-                        {
-                            "name": "诺曼第",
-                            "description": "纳伯斯工业",
-                            "size": 24
-                        },
-                        {
-                            "name": "夏普",
-                            "description": "九州电力",
-                            "size": 25
-                        },
-                        {
-                            "name": "墨西哥石油",
-                            "description": "山特维克",
-                            "size": 29
-                        },
-                        {
-                            "name": "思捷环球",
-                            "description": "计算机科学",
-                            "size": 28
-                        },
-                        {
-                            "name": "艾地盟",
-                            "description": "联合拖拉机",
-                            "size": 28
-                        },
-                        {
-                            "name": "迈朗",
-                            "description": "三菱汽车",
-                            "size": 23
-                        },
-                        {
-                            "name": "赛灵思公司",
-                            "description": "正大制药",
-                            "size": 22
-                        },
-                        {
-                            "name": "密理博",
-                            "description": "罗克韦尔",
-                            "size": 23
-                        },
-                        {
-                            "name": "芬欧汇川",
-                            "description": "力拓矿业",
-                            "size": 24
+                            "name": "彭尼",
+                            "description": "奥姆尼康集团"
                         }
                     ]
                 }

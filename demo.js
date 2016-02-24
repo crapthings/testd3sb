@@ -1,5 +1,7 @@
-var margin = {top: 350, right: 480, bottom: 350, left: 480},
-	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
+var screen_width = window.screen.width
+
+var margin = {top: screen_width, right: screen_width, bottom: screen_width, left: screen_width},
+	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 20;
 
 function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14}; 
 
@@ -21,7 +23,7 @@ var svg = d3.select("body").append("svg")
 
 var partition = d3.layout.partition()
 	.sort(function(a, b) { return d3.ascending(a.name, b.name); })
-	.size([2 * Math.PI, radius]);
+	.size([2 * Math.PI, radius])
 
 var arc = d3.svg.arc()
 	.startAngle(function(d) { return d.x; })
@@ -92,8 +94,10 @@ d3.json("./data.json", function(error, root) {
 
 	// Now redefine the value function to use the previously-computed sum.
 	partition
-		.children(function(d, depth) { return depth < 2 ? d._children : null; })
-		.value(function(d) { return d.sum; });
+		.children(function(d, depth) { return depth < 3 ? d._children : null; })
+		.value(function(d) {
+			return d.sum || _.random(40000, 50000);
+		});
 
 	var gg = svg.append('g')
 
@@ -212,7 +216,6 @@ d3.json("./data.json", function(error, root) {
 		 .on("mouseout", mouseOutArc)
 			.each(function(d) { this._current = enterArc(d); });
 
-		
 		path.transition()
 			.style("fill-opacity", 1)
 			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
@@ -234,7 +237,10 @@ d3.json("./data.json", function(error, root) {
 		.attr("dx", "6") // margin
 		.attr("dy", ".35em") // vertical-align
 		.filter(filter_min_arc_size_text)    	
-		.text(function(d,i) {return d.name})
+		.text(function(d,i) {
+			console.log(d, i)
+			return d.name
+		})
 		.transition().delay(750).style("opacity", 1)
 		.attr("pointer-events", "none")
 		.attr('fill', 'black')

@@ -70,18 +70,18 @@ d3.json("hack.json", function(error, root) {
       .on("click", click)
       .each(stash);
 
-  var texts = svg.selectAll("text")
-    .data(partition.nodes)
-  .enter().append("text")
-    .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
-    .attr("x", function(d) { return radius / 3 * d.depth; })  
-    .attr("dx", "6") // margin
-    .attr("dy", ".35em") // vertical-align  
-    .text(function(d,i) {
-      console.log(d)
-      return d.name
-    })
-    .attr("pointer-events", "none")
+  // var texts = svg.selectAll("text")
+  //   .data(partition.nodes)
+  // .enter().append("text")
+  //   .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
+  //   .attr("x", function(d) { return radius / 3 * d.depth; })  
+  //   .attr("dx", "6") // margin
+  //   .attr("dy", ".35em") // vertical-align  
+  //   .text(function(d,i) {
+  //     console.log(d)
+  //     return d.name
+  //   })
+  //   .attr("pointer-events", "none")
 
   d3.selectAll("input").on("change", function change() {
     var value = this.value === "count"
