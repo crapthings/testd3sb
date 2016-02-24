@@ -69,7 +69,7 @@ function format_number(x) {
 
 function format_description(d) {
 	var description = d.description;
-		return  '<b>' + d.name + '</b></br>'+ d.description + '<br> (' + format_number(d.value) + ')';
+		return  '<b>' + d.name + ' '+ d.description + ' (' + format_number(d.value) + ')';
 }
 
 function computeTextRotation(d) {
