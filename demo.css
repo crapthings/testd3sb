@@ -41,7 +41,7 @@ circle {
 #circle1 {
 	display: block;
 	margin: 0 auto;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	box-shadow: 4px 4px 4px rgba(255, 255, 255, .4)
 }
 

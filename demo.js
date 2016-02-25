@@ -1,9 +1,15 @@
-var screen_width = window.screen.width / 2
+var screen_width;
+
+if (window.screen.width > window.screen.height) {
+	screen_width = window.screen.availHeight
+} else {
+	screen_width = window.screen.availWidth
+}
 
 var depth = 1
 
 var margin = {top: screen_width, right: screen_width, bottom: screen_width, left: screen_width},
-	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 60;
+	radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) / 3;
 
 function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
@@ -41,12 +47,14 @@ var luminance = d3.scale.sqrt()
 	.clamp(true)
 	.range([90, 20]);
 
+console.log(screen_width)
+
 var svg = d3.select("body").append("svg")
 	.attr("id", "circle1")
-	.attr("width", margin.left + margin.right)
-	.attr("height", margin.top + margin.bottom + 100)
+	.attr("width", screen_width)
+	.attr("height", '100%')
 	.append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	.attr("transform", "translate(" + screen_width / 2 + ", " + (screen_width / 2 - window.screen.availTop * 2) + ")")
 	.style("filter", "url(#drop-shadow)")
 
 var partition = d3.layout.partition()
