@@ -12,6 +12,7 @@ html, body {
 
 body {
 	font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	font-size:16px;
 	background-color: #eee;
 }
 
@@ -43,6 +44,10 @@ circle {
 	display: block;
 	margin: 0 auto;
 	/*margin-top: 40px;*/
+}
+
+text {
+	font-weight: 400;
 }
 
 /*text {
