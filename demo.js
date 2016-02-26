@@ -1,3 +1,16 @@
+initSunburst()
+
+$(window).on('resize', function () {
+	$('#tooltip').remove()
+	$('svg').remove()
+	_.defer(initSunburst, 300)
+})
+
+function initSunburst () {
+
+$('#tooltip').remove()
+$('svg').remove()
+
 var screen_width;
 
 if (window.screen.width > window.screen.height) {
@@ -47,8 +60,6 @@ var luminance = d3.scale.sqrt()
 	.clamp(true)
 	.range([90, 20]);
 
-console.log(screen_width)
-
 var svg = d3.select("body").append("svg")
 	.attr("id", "circle1")
 	.attr("width", screen_width)
@@ -70,7 +81,6 @@ var arc = d3.svg.arc()
 var filter = svg.append("filter")
     .attr("id", "drop-shadow")
     .attr("height", "130%")
-
 
 // SourceAlpha refers to opacity of graphic that this filter will be applied to
 // convolve that with a Gaussian with standard deviation 3 and store result
@@ -234,6 +244,7 @@ d3.json("./data.json", function(error, root) {
 		.style('fill', 'black')
 		.text(root.name)
 		.attr("pointer-events", "none")
+		.attr('dy', 6)
 
 	function zoomIn(p, node) {
 	if (p.depth > 1) p = p.parent;
@@ -365,3 +376,5 @@ function updateArc(d) {
 }
 
 d3.select(self.frameElement).style("height", margin.top + margin.bottom + "px");
+
+}

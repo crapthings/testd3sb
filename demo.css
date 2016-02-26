@@ -12,6 +12,7 @@ html, body {
 
 body {
 	font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	background-color: #eee;
 }
 
 #tooltip {
@@ -42,14 +43,13 @@ circle {
 	display: block;
 	margin: 0 auto;
 	/*margin-top: 40px;*/
-	box-shadow: 4px 4px 4px rgba(255, 255, 255, .4)
 }
 
-text {
-    /*stroke: white;*/
-    /*stroke-width: 1px;*/
-    /*opacity: .9;*/
-}
+/*text {
+    stroke: black;
+    stroke-width: 2px;
+    opacity: .9;
+}*/
 
 #drop-shadow {
 	-webkit-filter: opacity(25%);
