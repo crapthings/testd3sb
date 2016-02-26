@@ -88,6 +88,18 @@ filter.append("feOffset")
     .attr("dy", 5)
     .attr("result", "offsetBlur")
 
+filter.append("feFlood")
+    .attr("flood-color", "#000")
+    .attr("flood-opacity", .4)
+    .attr("result", "offsetColor")
+
+filter.append("feComposite")
+    .attr("in", "offsetColor")
+    .attr("in2", "offsetBlur")
+    .attr("operator", 'in')
+    .attr("result", "offsetBlur")
+
+
 // overlay original SourceGraphic over translated blurred opacity by using
 // feMerge filter. Order of specifying inputs is important!
 var feMerge = filter.append("feMerge");
