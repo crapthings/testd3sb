@@ -1,14 +1,14 @@
 initSunburst()
 
 $(window).on('resize', function () {
-	$('#tooltip').remove()
+	$('#tool').remove()
 	$('svg').remove()
 	_.defer(initSunburst, 300)
 })
 
 function initSunburst () {
 
-$('#tooltip').remove()
+$('#tool').remove()
 $('svg').remove()
 
 var screen_width;
@@ -87,20 +87,20 @@ var filter = svg.append("filter")
 // in blur
 filter.append("feGaussianBlur")
     .attr("in", "SourceAlpha")
-    .attr("stdDeviation", 12)
+    .attr("stdDeviation", 8)
     .attr("result", "blur")
 
 // translate output of Gaussian blur to the right and downwards with 2px
 // store result in offsetBlur
 filter.append("feOffset")
     .attr("in", "blur")
-    .attr("dx", 5)
-    .attr("dy", 5)
+    .attr("dx", 3)
+    .attr("dy", 3)
     .attr("result", "offsetBlur")
 
 filter.append("feFlood")
-    .attr("flood-color", "#000")
-    .attr("flood-opacity", .4)
+    .attr("flood-color", "#999")
+    // .attr("flood-opacity", 1)
     .attr("result", "offsetColor")
 
 filter.append("feComposite")
@@ -110,8 +110,6 @@ filter.append("feComposite")
     .attr("result", "offsetBlur")
 
 
-// overlay original SourceGraphic over translated blurred opacity by using
-// feMerge filter. Order of specifying inputs is important!
 var feMerge = filter.append("feMerge");
 
 feMerge.append("feMergeNode")
@@ -192,11 +190,19 @@ d3.json("./data.json", function(error, root) {
 	var gg = svg.append('g')
 
 	var center = gg.append("circle")
-		.attr('fill', 'white')
+		.attr('fill', 'transparent')
 		.attr('stroke', 'white')
 		.attr('stroke-width', 2)
 		.attr("r", radius / 3)
 		.on("click", function (p) {
+
+			if (!p) {
+
+				tooltip.html(format_description(root));
+							tooltip.transition()
+							.duration(50)
+							.style("opacity", 0.9);
+			}
 			zoomOut(p)
 		});
 
@@ -255,12 +261,12 @@ d3.json("./data.json", function(error, root) {
 		.style('fill', 'white')
 	}
 
-	function zoomOut(p) {
+	function zoomOut(p) {``
 	if (!p || !p.parent) return;
 	zoom(p.parent, p);
 		if (p.parent && !p.parent.parent) {
 			currentPoint.style('fill', 'black')
-			center.attr('fill', 'white')
+			center.attr('fill', 'transparent')
 		}
 		currentPoint.text(p.parent.name)
 	}
