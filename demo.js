@@ -118,12 +118,16 @@ feMerge.append("feMergeNode")
     .attr("in", "SourceGraphic");
 
 //Tooltip description
-var tooltip = d3.select("body")
-	.append("div")
-	.attr("id", "tooltip")
-	.style("position", "absolute")
-	.style("z-index", "10")
-	.style("opacity", 0);
+var tooltip
+// var tooltip = d3.select("body")
+	// .append("div")
+	// .attr("id", "tooltip")
+	// .style("position", "absolute")
+	// .style("z-index", "10")
+	// .style("opacity", 0)
+	// .on('click', function () {
+
+	// })
 
 function format_number(x) {
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -144,6 +148,8 @@ function computeTextRotation(d) {
 }
 
 function mouseOverArc(d) {
+	lastItem = d
+	lastZoomInColor = this.style.fill
 	 d3.select(this).attr("stroke","#C6FF00")
 
 	tooltip.html(format_description(d));
@@ -169,6 +175,17 @@ d3.json("./data.json", function(error, root) {
 	// Compute the initial layout on the entire tree to sum sizes.
 	// Also compute the full name and fill color for each node,
 	// and stash the children so they can be restored as we descend.
+
+	tooltip = d3.select("body")
+	.append("div")
+	.attr("id", "tooltip")
+	.style("position", "absolute")
+	.style("z-index", "10")
+	.style("opacity", 0)
+	.on('click', function () {
+		zoomIn(lastItem)
+		center.attr('fill', lastZoomInColor)
+	})
 
 	partition
 		.value(function(d) { return d.size; })
@@ -221,6 +238,8 @@ d3.json("./data.json", function(error, root) {
 		.each(function(d) { this._current = updateArc(d); })
 		.on("click", function (p) {
 			center.attr('fill', this.style.fill)
+			lastZoomInColor = this.style.fill
+			console.log(lastZoomInColor)
 			zoomIn(p)
 		})
 		.on("mouseover", mouseOverArc)
@@ -316,6 +335,7 @@ d3.json("./data.json", function(error, root) {
 			.style("fill", function(d) { return color((d.children ? d : d.parent).name); })
 			// .style("fill", function(d) { return d.fill; })
 			.on("click", function (p) {
+
 				center.attr('fill', this.style.fill)
 				zoomIn(p)
 			})
