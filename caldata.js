@@ -5,11 +5,17 @@ var file = './datas-years.json'
 
 var data = {}
 
-var startDate = new Date(2016, 1)
+moment.locale('zh-CN')
 
 _.times(90, function (n) {
-	var timestamp = moment(startDate).add(n, 'd').unix()
-	data[timestamp] = _.sample([0, _.random(50)])
+	var timestamp = moment(new Date(2016, 1)).add(n, 'd').unix()
+	var dd = moment( new Date(timestamp * 1000) ).format('dd')
+	if (dd == '六' || dd == '日') {
+		data[timestamp] = _.sample([0, 0, 0, _.random(0, 20)])
+		console.log(dd, data[timestamp])
+	} else {
+		data[timestamp] = _.random(10, 30)
+	}
 })
 
 jsonfile.writeFile(file, data, {

@@ -21,7 +21,7 @@
 	</style>
 </head>
 <body>
-	<h3 style='text-align: center; padding: 20px 0;'>test</h3>
+	<h3 style='text-align: center; padding: 20px 0;'>于静文</h3>
 	<div id="cal-heatmap" style='margin-top: 30px;'></div>
 
 	<script src="lodash.min.js"></script>
@@ -48,8 +48,8 @@
 			},
 
 			subDomainTextFormat: function (date) {
-				console.log(date)
-				return moment(date).format('dd')
+				var week = moment(date).format('dd')
+				return week
 			}
 		})
 	</script>
