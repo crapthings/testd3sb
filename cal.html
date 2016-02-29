@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<style>
 		html, body {
-			background: white;
+			background: transparent;
 		}
 
 		.cal-heatmap-container {
@@ -18,11 +18,57 @@
 		.cal-heatmap-container .subdomain-text {
 			fill: white;
 		}
+
+		#bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -2;
+			background: url('./header.jpg') top left no-repeat;
+			background-size: contain;
+		}
+
+		#cover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			color: white;
+		}
+
+		#cal-heatmap {
+			position: relative;
+			bottom: -10px;
+		}
+
+		.flex {
+			display: flex;
+		    flex-direction: column;
+		    height: 100vh;
+		}
+
+		.flex-1x {
+			flex: 1;
+		}
+
+		.graph-legend {
+			display: none;
+		}
 	</style>
 </head>
 <body>
-	<h3 style='text-align: center; padding: 20px 0;'>于静文</h3>
-	<div id="cal-heatmap" style='margin-top: 30px;'></div>
+	<div id="bg"></div>
+	<div id="cover"></div>
+	<!-- <h3 style='text-align: center; padding: 20px 0;'>于静文</h3> -->
+	<div class="flex">
+		<div class="flex-1x"></div>
+		<div class="flex-1x"></div>
+		<div id="cal-heatmap" class='flex-1x'></div>
+	</div>
 
 	<script src="lodash.min.js"></script>
 	<script src="moment-with-locales.min.js"></script>
@@ -32,24 +78,32 @@
 
 	<script type="text/javascript">
 		moment.locale('zh-CN')
-
+		var startDate = moment(new Date()).subtract(2, 'month').toDate()
 		var SCREEN_AVAIL_WIDTH = Math.floor((screen.availWidth - 2 * 15) / 16)
 		var cal = new CalHeatMap()
 		cal.init({
 			data: "datas-years.json",
-			// start: new Date(2016, 2),
+			start: startDate,
 			domain: 'month',
 			range: 3,
 			cellSize: SCREEN_AVAIL_WIDTH,
 			cellPadding: 2,
 			domainGutter: 2,
 			domainLabelFormat: function (date, value) {
-				return moment(date).format('MMM')
+				return moment(new Date(date)).format('MMM')
+			},
+			subDomainTextFormat: function (date) {
+				if (moment(date).format('dd') == '六' || moment(date).format('dd') == '日')
+					return moment(date).format('dd')
+				else
+					return moment(date).format('DD')
 			},
 
-			subDomainTextFormat: function (date) {
-				var week = moment(date).format('dd')
-				return week
+			legendColors: {
+				min: '#B2EBF2',
+				max: '#00838F',
+				empty: 'white',
+				base: 'white'
 			}
 		})
 	</script>
