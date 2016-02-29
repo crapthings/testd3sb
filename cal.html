@@ -6,20 +6,46 @@
 	<link rel="stylesheet" href="cal-heatmap.css">
 	<link rel="stylesheet" href="demo.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<style>
+		html, body {
+			background: white;
+		}
+
+		.cal-heatmap-container {
+			margin: 0 auto;
+		}
+	</style>
 </head>
 <body>
-	<div id="cal-heatmap"></div>
+	<h3 style='text-align: center; padding: 20px 0;'>test</h3>
+	<div id="cal-heatmap" style='margin-top: 30px;'></div>
 
 	<script src="lodash.min.js"></script>
+	<script src="moment-with-locales.min.js"></script>
 	<script src="d3.v3.min.js"></script>
 	<script src="cal-heatmap.js"></script>
 	<script src="jquery.min.js"></script>
 
 	<script type="text/javascript">
-		var cal = new CalHeatMap();
+		moment.locale('zh-CN')
+
+		var SCREEN_AVAIL_WIDTH = Math.floor((screen.availWidth - 2 * 15) / 16)
+		var cal = new CalHeatMap()
 		cal.init({
-			domain: 'month'
-		});
+			data: "datas-years.json",
+			// start: new Date(2016, 2),
+			domain: 'month',
+			range: 3,
+			cellSize: SCREEN_AVAIL_WIDTH,
+			cellPadding: 2,
+			domainGutter: 2,
+			domainLabelFormat: function (date, value) {
+				console.log(date)
+				return moment(date).format('MMM')
+			},
+
+			subDomainTextFormat: "%d"
+		})
 	</script>
 </body>
 </html>

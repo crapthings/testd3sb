@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^2.2.3",
-    "lodash": "^4.5.0"
+    "lodash": "^4.5.0",
+    "moment": "^2.11.2"
   }
 }
