@@ -14,6 +14,10 @@
 		.cal-heatmap-container {
 			margin: 0 auto;
 		}
+
+		.cal-heatmap-container .subdomain-text {
+			fill: white;
+		}
 	</style>
 </head>
 <body>
@@ -40,11 +44,13 @@
 			cellPadding: 2,
 			domainGutter: 2,
 			domainLabelFormat: function (date, value) {
-				console.log(date)
 				return moment(date).format('MMM')
 			},
 
-			subDomainTextFormat: "%d"
+			subDomainTextFormat: function (date) {
+				console.log(date)
+				return moment(date).format('dd')
+			}
 		})
 	</script>
 </body>
