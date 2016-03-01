@@ -16,7 +16,7 @@
 		}
 
 		.cal-heatmap-container .subdomain-text {
-			fill: white;
+			fill: '#999';
 		}
 
 		#bg {
@@ -43,6 +43,7 @@
 		#cal-heatmap {
 			position: relative;
 			bottom: -10px;
+			overflow-x: scroll;
 		}
 
 		.flex {
@@ -57,6 +58,14 @@
 
 		.graph-legend {
 			display: none;
+		}
+
+		.r1 ~ .subdomain-text,
+		.r2 ~ .subdomain-text,
+		.r3 ~ .subdomain-text,
+		.r4 ~ .subdomain-text,
+		.r5 ~ .subdomain-text {
+			fill: white;
 		}
 	</style>
 </head>
@@ -78,17 +87,17 @@
 
 	<script type="text/javascript">
 		moment.locale('zh-CN')
-		var startDate = moment(new Date()).subtract(2, 'month').toDate()
+		var startDate = moment(new Date()).subtract(12, 'month').toDate()
 		var SCREEN_AVAIL_WIDTH = Math.floor((screen.availWidth - 2 * 15) / 16)
 		var cal = new CalHeatMap()
 		cal.init({
 			data: "datas-years.json",
 			start: startDate,
 			domain: 'month',
-			range: 3,
+			range: 13,
 			cellSize: SCREEN_AVAIL_WIDTH,
 			cellPadding: 2,
-			domainGutter: 2,
+			domainGutter: 0,
 			domainLabelFormat: function (date, value) {
 				return moment(new Date(date)).format('MMM')
 			},
@@ -96,15 +105,21 @@
 				if (moment(date).format('dd') == '六' || moment(date).format('dd') == '日')
 					return moment(date).format('dd')
 				else
-					return moment(date).format('DD')
+					return moment(date).format('D')
 			},
 
 			legendColors: {
 				min: '#B2EBF2',
 				max: '#00838F',
 				empty: 'white',
-				base: 'white'
+				base: '#eee'
 			}
+		})
+
+		$(document).ready(function () {
+			_.delay(function () {
+				$('#cal-heatmap').scrollLeft(20000).show()
+			}, 50)
 		})
 	</script>
 </body>
