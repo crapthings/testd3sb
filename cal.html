@@ -109,7 +109,7 @@
 			cellPadding: 2,
 			domainGutter: 0,
 			domainLabelFormat: function (date, value) {
-				return moment(new Date(date)).format('MMM')
+				return moment(new Date(date)).format('YYYY年M月')
 			},
 			subDomainTextFormat: function (date) {
 				if (moment(date).format('dd') == '六' || moment(date).format('dd') == '日')
