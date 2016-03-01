@@ -14,6 +14,10 @@
 		}
 		html, body {
 			background: transparent;
+
+		}
+		body {
+			overflow-y: scroll;
 		}
 
 		.cal-heatmap-container {
@@ -51,7 +55,7 @@
 			overflow-x: scroll;
 		}
 
-		.flex {
+		/*.flex {
 			display: flex;
 		    flex-direction: column;
 		    height: 100vh;
@@ -59,7 +63,7 @@
 
 		.flex-1x {
 			flex: 1;
-		}
+		}*/
 
 		.graph-legend {
 			display: none;
@@ -76,13 +80,13 @@
 </head>
 <body>
 	<img src="header.jpg" alt="" width="100%">
-	<div id="bg"></div>
-	<div id="cover"></div>
+	<!-- <div id="bg"></div> -->
+	<!-- <div id="cover"></div> -->
 	<!-- <h3 style='text-align: center; padding: 20px 0;'>于静文</h3> -->
 	<div class="flex">
 		<!-- <div class="flex-1x"></div> -->
 		<!-- <div class="flex-1x"></div> -->
-		<div id="cal-heatmap" class='flex-1x'></div>
+		<div id="cal-heatmap" class=''></div>
 	</div>
 
 	<script src="lodash.min.js"></script>
