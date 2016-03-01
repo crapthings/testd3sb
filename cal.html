@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="demo.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<style>
+
+
+		* {
+			-webkit-overflow-scrolling: touch;
+		}
 		html, body {
 			background: transparent;
 		}
@@ -26,7 +31,7 @@
 			right: 0;
 			bottom: 0;
 			z-index: -2;
-			background: url('./header.jpg') top left no-repeat;
+			/*background: url('./header.jpg') top left no-repeat;*/
 			background-size: contain;
 		}
 
@@ -70,12 +75,13 @@
 	</style>
 </head>
 <body>
+	<img src="header.jpg" alt="" width="100%">
 	<div id="bg"></div>
 	<div id="cover"></div>
 	<!-- <h3 style='text-align: center; padding: 20px 0;'>于静文</h3> -->
 	<div class="flex">
-		<div class="flex-1x"></div>
-		<div class="flex-1x"></div>
+		<!-- <div class="flex-1x"></div> -->
+		<!-- <div class="flex-1x"></div> -->
 		<div id="cal-heatmap" class='flex-1x'></div>
 	</div>
 
